@@ -16,7 +16,7 @@ body{
 
 .menu{
   font-size: 0;
-  padding-left: 390px;
+  padding-left: 290px;
 }
 
 
@@ -55,7 +55,7 @@ body{
 /* Тело */
 
 .main_text{
-  padding-left: 390px;
+  padding-left: 290px;
 }
 
 .design h1{
@@ -108,8 +108,6 @@ body{
 .about{
   width: 100%;
   display: inline-block;
-  left: 0;
-  right: 0;
   text-align: center;
 
 
@@ -129,7 +127,6 @@ body{
 
 .lorem_impuls_about {
   text-align: center;
-  width: 500px;
   padding: 50px 0 100px 555px;
 
   
@@ -145,7 +142,7 @@ body{
 
 .cards{
 box-sizing: border-box;
-padding-left: 300px;
+padding-left: 400px;
 }
 
 
@@ -192,11 +189,9 @@ padding-left: 300px;
 
 
 .basement{
-  box-sizing: border-box;
+  width: auto;
   padding-top: 50px;
   padding-bottom: 50px;
-  display: block;
-  box-sizing: border-box;
   color: white;
   
 }
@@ -205,6 +200,6 @@ padding-left: 300px;
   padding-top: 20px;
 }
 
-.marg{
-  margin-left: 250px;
+.pad{
+  padding-left: 250px;
 }
