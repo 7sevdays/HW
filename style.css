@@ -9,15 +9,20 @@ body{
   background: #EEEFF1;
 }
 
+
+
 /* Навигация */
+
 
 .menu{
   font-size: 0;
+  padding-left: 390px;
 }
 
 
 .menu_item{
   display: inline-block;
+
 }
 
 
@@ -39,8 +44,8 @@ body{
 }
 
 .box{
-  width: 700px;
-  margin: auto;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .margin_bottom{
@@ -48,6 +53,10 @@ body{
 }
 
 /* Тело */
+
+.main_text{
+  padding-left: 390px;
+}
 
 .design h1{
   font-family: 'Roboto';
@@ -121,8 +130,8 @@ body{
 .lorem_impuls_about {
   text-align: center;
   width: 500px;
-  padding: 50px 540px 100px 0;
-  margin-left: 302px;
+  padding: 50px 0 100px 555px;
+
   
 }
 
@@ -161,7 +170,7 @@ padding-left: 300px;
 
 .bk{
   position: relative;
-  margin: auto;
+  margin-left: 250px;
   width: 1100px;
   height: 600px;
   background-image: url(./img/background.png);
@@ -194,4 +203,8 @@ padding-left: 300px;
 
 .basement p{
   padding-top: 20px;
+}
+
+.marg{
+  margin-left: 250px;
 }
