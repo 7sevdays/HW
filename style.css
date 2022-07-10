@@ -1,0 +1,75 @@
+*, html, body{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.menu{
+  font-size: 0;
+}
+
+
+.menu_item{
+  display: inline-block;
+}
+
+
+.menu_item_link{
+  font-size: 16px;
+  display: block;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  background-color: black;
+}
+
+.menu_item_link:hover{
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+
+.menu_item_link::after{
+  content: "\263A";
+
+}
+
+.menu_inner{
+  display: none;
+  position: absolute;
+}
+
+.menu_inner .menu_item{
+  display: block;
+}
+
+.menu_item:hover .menu_inner{
+  display: block;
+}
+
+.menu_inner_in{
+  width: 100%;
+  display: none;
+  position: absolute;
+  left: 144px;
+  top: 116px;
+}
+
+
+.menu_item_phone:hover .menu_inner_in{
+  display: block;
+}
+
+
+
+.xiomu{
+  width: 100%;
+  position: absolute;
+  top: 116px;
+  left: 144px;
+  display: none;
+}
+
+.menu_item_xiomu:hover .xiomu{
+  display: block;
+}
