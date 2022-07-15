@@ -1,0 +1,101 @@
+@font-face {
+  font-family: 'Graphik LCG regular';
+  src: url('./fonts/GraphikLCG-Regular/GraphikLCG-Regular.eot');
+  src: url('./fonts/GraphikLCG-Regular/GraphikLCG-Regular.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/GraphikLCG-Regular/GraphikLCG-Regular.woff2') format('woff2'),
+      url('./fonts/GraphikLCG-Regular/GraphikLCG-Regular.woff') format('woff'),
+      url('./fonts/GraphikLCG-Regular/GraphikLCG-Regular.ttf') format('truetype'),
+      url('./fonts/GraphikLCG-Regular/GraphikLCG-Regular.svg#GraphikLCG-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Graphik LCG bold';
+  src: url('./fonts/GraphikLCG-Semibold/GraphikLCG-Semibold.eot');
+  src: url('./fonts/GraphikLCG-Semibold/GraphikLCG-Semibold.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/GraphikLCG-Semibold/GraphikLCG-Semibold.woff2') format('woff2'),
+      url('./fonts/GraphikLCG-Semibold/GraphikLCG-Semibold.woff') format('woff'),
+      url('./fonts/GraphikLCG-Semibold/GraphikLCG-Semibold.ttf') format('truetype'),
+      url('./fonts/GraphikLCG-Semibold/GraphikLCG-Semibold.svg#GraphikLCG-Semibold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+*, html, body{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+/* Шапка */
+
+header{
+  padding: 34.23px 72px 36px 51px;
+}
+
+
+.header_menu_link{
+  font-family: 'Graphik LCG regular';
+  font-size: 15px;
+  line-height: 20px;
+  color: black;
+  padding-left: 51px;
+
+}
+
+.header_button_log{
+  font-family: 'Graphik LCG bold';
+  color: black;
+  font-size: 16px;
+  line-height: 45px;
+  text-align: center;
+  border: none;
+  padding: 0px 36px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.header_button_Try{
+  margin-left: 10px;
+  font-family: 'Graphik LCG bold';
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  line-height: 45px;
+  text-align: center;
+  border: none;
+  padding: 0px 21px;
+  background: #FF6336;
+}
+
+
+
+/* Флексы */
+
+.flex {
+  display: flex;
+}
+
+.j-c-c{
+  display: flex;
+  justify-content: center;
+}
+
+.a-i-c{
+  display: flex;
+  align-items: center;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.j-c-b{
+  display: flex;
+  justify-content: space-between;
+}
