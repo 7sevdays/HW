@@ -48,19 +48,23 @@ header{
 
 }
 
+
+/* Кнопки */
+
 .header_button_log{
+  box-sizing: border-box;
+  margin-right: 10px;
   font-family: 'Graphik LCG bold';
   color: black;
   font-size: 16px;
   line-height: 45px;
   text-align: center;
   border: none;
-  padding: 0px 36px;
   border: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 .header_button_Try{
-  margin-left: 10px;
+  box-sizing: border-box;
   font-family: 'Graphik LCG bold';
   color: rgb(255, 255, 255);
   font-size: 16px;
@@ -71,6 +75,86 @@ header{
   background: #FF6336;
 }
 
+
+/* Тело */
+
+section{
+  width: 1300px;
+  margin: auto;
+}
+
+#first{
+  margin-top: 129px;
+}
+
+.fist_head{
+  font-family: 'Graphik LCG bold';
+  font-size: 65px;
+  line-height: 70px;
+  color: black;
+}
+
+.first_sub{
+  font-family: 'Graphik LCG regular';
+  font-size: 25px;
+  line-height: 35px;
+  color: black;
+  margin-right: 68px;
+
+}
+
+.first_p{
+  font-family: 'Graphik LCG regular';
+  font-size: 15px;
+  line-height: 25px;
+  color: black;
+}
+
+#company_pad{
+  margin-top: 172px;
+}
+
+.company{
+  background: #FF9C7D;
+}
+
+.company_head{
+  padding-top: 108px;
+  font-family: 'Graphik LCG bold';
+  font-size: 50px;
+  line-height: 60px;
+  color: black;
+  padding-bottom: 88.68px;
+}
+
+
+
+/* Вспомогательные плюшки */
+
+.padding_top{
+  padding-top: 50px;
+}
+
+.padding_top_p{
+  padding-top: 25px;
+}
+
+
+.marging_right{
+  margin-right: 10px;
+}
+
+.padding_button{
+  padding: 0px 36px;
+}
+.padding_bottom{
+  padding-bottom: 88.68px;
+}
+
+
+.width_button{
+  width: 160px;
+}
 
 
 /* Флексы */
