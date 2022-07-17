@@ -36,6 +36,7 @@
 
 header{
   padding: 34.23px 72px 36px 51px;
+  border-bottom: 0.1px solid grey;
 }
 
 
@@ -43,7 +44,6 @@ header{
   font-family: 'Graphik LCG regular';
   font-size: 15px;
   line-height: 20px;
-  color: black;
   padding-left: 51px;
 
 }
@@ -55,7 +55,6 @@ header{
   box-sizing: border-box;
   margin-right: 10px;
   font-family: 'Graphik LCG bold';
-  color: black;
   font-size: 16px;
   line-height: 45px;
   text-align: center;
@@ -91,14 +90,14 @@ header{
   font-family: 'Graphik LCG bold';
   font-size: 65px;
   line-height: 70px;
-  color: black;
+
 }
 
 .first_sub{
   font-family: 'Graphik LCG regular';
   font-size: 25px;
   line-height: 35px;
-  color: black;
+
   margin-right: 68px;
 
 }
@@ -107,7 +106,7 @@ header{
   font-family: 'Graphik LCG regular';
   font-size: 15px;
   line-height: 25px;
-  color: black;
+
 }
 
 
@@ -120,7 +119,7 @@ header{
   font-family: 'Graphik LCG bold';
   font-size: 25px;
   line-height: 35px;
-  color: black;
+
 }
 
 .card_sub_text{
@@ -128,7 +127,6 @@ header{
   font-family: 'Graphik LCG regular';
   font-size: 18px;
   line-height: 25px;
-  color: black;
   padding-top: 20px;
   
 }
@@ -145,7 +143,7 @@ header{
   font-family: 'Graphik LCG bold';
   font-size: 30px;
   line-height: 40px;
-  color: black;
+
 }
 
 .card_boost_sub_text{
@@ -153,13 +151,159 @@ header{
   font-family: 'Graphik LCG regular';
   font-size: 20px;
   line-height: 30px;
-  color: black;
   padding-top: 33px;
   padding-bottom: 26px;
 }
 
 .img_lokalise{
   height: 180px;
+}
+
+/* Revoult block */
+
+.revoult_text{
+  padding-right: 59.3px;
+  font-family: 'Graphik LCG regular';
+  font-size: 30px;
+  line-height: 40px;
+
+}
+
+.img_rectangle{
+  padding: 53px 0 105px 0;
+}
+
+/* Brown block */
+
+.brown_text{
+  width: 461px;
+  font-family: 'Graphik LCG bold';
+  font-size: 35px;
+  line-height: 50px;
+
+}
+
+.brown_padding_right{
+  border-left: 2px solid black;
+  padding-right: 70.86px;
+  padding-left: 71px;
+}
+
+.brown_marging_left{
+  padding-left: 67px;
+}
+
+.cake_padding_bot{
+  padding-bottom: 88px;
+}
+
+
+/* Bird block */
+
+
+.bird_head{
+  text-align: center;
+  width: 791px;
+  font-family: 'Graphik LCG bold';
+  font-size: 65px;
+  line-height: 75px;
+
+}
+
+.bird_sub{
+  width: 539px;
+  font-family: 'Graphik LCG regular';
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.bird_marging_top{
+  margin-top: 32px;
+}
+
+
+/* Футер */
+
+footer{
+  padding: 92px 0;
+}
+
+
+/* Case Studies */
+
+.case_head{
+  font-family: 'Graphik LCG bold';
+  font-size: 40px;
+  line-height: 50px;
+  color: black;
+  padding-bottom: 28px;
+}
+
+
+.bike_text{
+  font-family: 'Graphik LCG regular';
+  width: 290px;
+  font-size: 20px;
+  line-height: 30px;
+  padding-bottom: 15px;
+
+}
+
+.case_img{
+  padding-bottom: 24px;
+}
+
+
+#img_spec{
+  width: 80px;
+  height: 32px;
+}
+
+
+.footer_list_text{
+  font-family: 'Graphik LCG bold';
+  font-size: 20px;
+  line-height: 25px;
+
+  padding-bottom: 21px;
+}
+
+.footer_link_text{
+  font-family: 'Graphik LCG regular';
+  font-size: 15px;
+  line-height: 15px;
+}
+
+
+.footer_link_margin{
+  margin-bottom: 15px;
+}
+
+.base_margin_top{
+  margin-top: 95px;
+}
+
+.base_text{
+  padding-left: 14px;
+  font-family: 'Graphik LCG regular';
+  width: 301px;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.base_img{
+  width: 90px;
+  height: 21px;
+}
+
+.base{
+  border-top: 1px solid black;
+}
+
+.padding_top_base{
+  padding-top: 52px;
 }
 
 
@@ -171,9 +315,6 @@ header{
   margin-top: 172px;
 }
 
-.company{
-  background: #FF9C7D;
-}
 
 .company_head{
   padding-top: 108px;
@@ -189,20 +330,24 @@ header{
   font-family: 'Graphik LCG bold';
   font-size: 50px;
   line-height: 60px;
-  color: black;
+
 }
 
 .head_sub_text{
   font-family: 'Graphik LCG regular';
   font-size: 20px;
   line-height: 30px;
-  color: black;
   padding: 30px 0;
 
 }
 
 .bold{
   font-family: 'Graphik LCG bold';
+}
+
+
+.underline{
+  text-decoration: underline;
 }
 
 .padding_top{
@@ -250,6 +395,11 @@ header{
 }
 
 
+.marging_bot{
+  margin-bottom: 161px;
+}
+
+
 .width_button{
   width: 160px;
 }
@@ -259,10 +409,6 @@ header{
 }
 
 
-.underline{
-  text-decoration: underline;
-}
-
 .padding_right_text{
   padding-right: 167px;
 }
@@ -271,8 +417,35 @@ header{
   padding-left: 138px;
 }
 
+/* Цвета */
+
 .color{
   background-color: #FFF8E4;
+}
+
+.black{
+  color: black;
+}
+
+.blue{
+  background-color: #C9E8F2;
+}
+
+.brown{
+  background-color: #DABC98;
+}
+
+.orange{
+  background: #FF9C7D;
+}
+
+.back_black{
+  background-color: black;
+}
+
+
+.grey{
+  background-color: #EEEEEE;;
 }
 
 /* Флексы */
@@ -303,6 +476,7 @@ header{
 }
 
 .wrap{
+  display: flex;
   flex-wrap: wrap;
 }
 
@@ -310,7 +484,7 @@ header{
   flex-direction: column;
 }
 
-
-.black_color{
-  color: black;
+.j-c-a{
+  display: flex;
+  justify-content: space-around;
 }
