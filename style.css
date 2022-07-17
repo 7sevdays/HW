@@ -78,7 +78,7 @@ header{
 
 /* Тело */
 
-section{
+.container{
   width: 1300px;
   margin: auto;
 }
@@ -110,6 +110,63 @@ section{
   color: black;
 }
 
+
+/* Карточки localize */
+
+
+
+.card_text{
+  padding-top: 26px;
+  font-family: 'Graphik LCG bold';
+  font-size: 25px;
+  line-height: 35px;
+  color: black;
+}
+
+.card_sub_text{
+  width: 330px;
+  font-family: 'Graphik LCG regular';
+  font-size: 18px;
+  line-height: 25px;
+  color: black;
+  padding-top: 20px;
+  
+}
+
+.card{
+  padding-top: 75px;
+  text-align: center;
+}
+
+/* Карточки boost */
+
+.card_boost_text{
+  padding-top: 49px;
+  font-family: 'Graphik LCG bold';
+  font-size: 30px;
+  line-height: 40px;
+  color: black;
+}
+
+.card_boost_sub_text{
+  width: 409px;
+  font-family: 'Graphik LCG regular';
+  font-size: 20px;
+  line-height: 30px;
+  color: black;
+  padding-top: 33px;
+  padding-bottom: 26px;
+}
+
+.img_lokalise{
+  height: 180px;
+}
+
+
+
+
+/* Вспомогательные плюшки */
+
 #company_pad{
   margin-top: 172px;
 }
@@ -120,20 +177,52 @@ section{
 
 .company_head{
   padding-top: 108px;
+
+}
+
+.margin_top_lokalise{
+  margin-top: 150px;
+}
+
+
+.head_text{
   font-family: 'Graphik LCG bold';
   font-size: 50px;
   line-height: 60px;
   color: black;
-  padding-bottom: 88.68px;
 }
 
+.head_sub_text{
+  font-family: 'Graphik LCG regular';
+  font-size: 20px;
+  line-height: 30px;
+  color: black;
+  padding: 30px 0;
 
+}
 
-/* Вспомогательные плюшки */
+.bold{
+  font-family: 'Graphik LCG bold';
+}
 
 .padding_top{
   padding-top: 50px;
 }
+
+.margin_top_app{
+  margin-top: 90px;
+}
+
+.padding_top_lokalise{
+  padding-top: 75px;
+}
+
+
+
+.marging_top_block{
+  margin-top: 250px;
+}
+
 
 .padding_top_p{
   padding-top: 25px;
@@ -151,11 +240,40 @@ section{
   padding-bottom: 88.68px;
 }
 
+.padding_bottom_companies{
+  padding-bottom: 120px;
+}
+
+
+.padding_bottom_card{
+  padding-bottom: 147px;
+}
+
 
 .width_button{
   width: 160px;
 }
 
+.width_p{
+  width: 100px;
+}
+
+
+.underline{
+  text-decoration: underline;
+}
+
+.padding_right_text{
+  padding-right: 167px;
+}
+
+.padding_left_text{
+  padding-left: 138px;
+}
+
+.color{
+  background-color: #FFF8E4;
+}
 
 /* Флексы */
 
@@ -182,4 +300,17 @@ section{
 .j-c-b{
   display: flex;
   justify-content: space-between;
+}
+
+.wrap{
+  flex-wrap: wrap;
+}
+
+.column{
+  flex-direction: column;
+}
+
+
+.black_color{
+  color: black;
 }
