@@ -156,7 +156,7 @@ header{
 }
 
 .img_lokalise{
-  height: 180px;
+height: 180px;
 }
 
 /* Revoult block */
@@ -377,6 +377,11 @@ footer{
 .marging_right{
   margin-right: 10px;
 }
+
+.m_r{
+  margin-right: 60px;
+}
+
 
 .padding_button{
   padding: 0px 36px;
