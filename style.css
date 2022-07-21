@@ -30,7 +30,12 @@
   margin: 0;
   list-style-type: none;
   text-decoration: none;
+  box-sizing: border-box;
+  
 }
+
+
+
 
 /* Шапка */
 
@@ -52,7 +57,7 @@ header{
 /* Кнопки */
 
 .header_button_log{
-  box-sizing: border-box;
+  width: 120px;
   margin-right: 10px;
   font-family: 'Graphik LCG bold';
   font-size: 16px;
@@ -63,7 +68,7 @@ header{
 }
 
 .header_button_Try{
-  box-sizing: border-box;
+  width: 120px;
   font-family: 'Graphik LCG bold';
   color: rgb(255, 255, 255);
   font-size: 16px;
@@ -78,9 +83,49 @@ header{
 /* Тело */
 
 .container{
-  width: 1300px;
+  width: 68%;
   margin: auto;
 }
+
+.main_container{
+  width: 50%;
+}
+
+.img_main{
+  width: 50%;
+  min-width: 380px;
+}
+
+.name_company{
+  padding-left: 50px;
+  min-width: 130px;
+
+}
+
+.name_company:first-child{
+  padding-left: 0%;
+}
+
+.block{
+  width: 50%;
+}
+
+.img_block{
+  min-width: 350px;
+}
+
+.boost_block{
+  width: 32%;
+}
+
+.footer_block{
+  width: 20%;
+}
+
+.button_block{
+  min-height: 47px;
+}
+
 
 #first{
   margin-top: 129px;
@@ -147,7 +192,6 @@ header{
 }
 
 .card_boost_sub_text{
-  width: 409px;
   font-family: 'Graphik LCG regular';
   font-size: 20px;
   line-height: 30px;
@@ -171,6 +215,7 @@ height: 180px;
 
 .img_rectangle{
   padding: 53px 0 105px 0;
+  max-height: 470px;
 }
 
 /* Brown block */
