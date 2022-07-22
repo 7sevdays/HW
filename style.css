@@ -5,3 +5,26 @@
   text-decoration: none;
   box-sizing: border-box;
 }
+
+
+.yellow{
+  width:100vw;
+  height: 150px;
+}
+
+
+.blue{
+  width:100vw;
+  height: 250px;
+}
+
+.sky{
+  width:100vw;
+  height: 400px;
+}
+
+.sail{
+  width: 10px;
+  height: 160px;
+}
+
