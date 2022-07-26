@@ -1,0 +1,114 @@
+*, body, html{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body{
+  overflow: hidden;
+}
+
+
+.carmove{
+  transform: scalex(1);
+  top: 50%;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  animation: carmove 5s infinite linear alternate ;
+  
+}
+
+
+.car{
+  transform: scalex(-1);
+}
+
+.siren{
+  position: relative;
+  width: 20px;
+  height: 30px;
+  background-color: red;
+  border-radius: 60%;
+  border: 1px solid black;
+  left: 70%;
+  top: 10px;
+  animation: onsirena 1s infinite linear ;
+}
+
+
+
+.wheel_1{
+  animation: movewheel 5s infinite linear ;
+  position: absolute;
+  top: 70%;
+  left: 11%;
+
+
+}
+
+.wheel_2{
+  animation: movewheel 5s infinite linear ;
+  position: absolute;
+  top: 70%;
+  left: 77%;
+
+}
+
+
+@keyframes carmove{
+
+    25%{
+
+      left: 25%;
+    }
+
+    50%{
+      left: 50%;
+    }
+
+    100%  {
+
+      left: 85%;
+    }
+
+
+
+
+  }
+
+
+
+  
+@keyframes movewheel{
+
+  from{
+    transform: rotate(0deg);
+
+  }
+
+  to {
+    transform: rotate(360deg);
+
+  }
+
+}
+
+
+@keyframes onsirena{
+
+  from{
+    background-color: red;
+
+  }
+
+  to {
+    background-color: blue;
+
+  }
+
+}
+
+
