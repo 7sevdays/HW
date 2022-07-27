@@ -65,12 +65,12 @@ body{
 
     49%{
       transform: scalex(1);
-      left: 100%;
+      left: 80%;
     }
 
     50%  {
       transform: scalex(-1);
-      left: 100%;
+      left: 80%;
     }
 
     100%  {
