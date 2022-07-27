@@ -12,12 +12,14 @@ body{
 
 
 .carmove{
-  transform: scalex(1);
   top: 50%;
   left: 0;
   margin: auto;
   position: absolute;
-  animation: carmove 5s infinite linear alternate ;
+  animation: carmove linear 5s infinite ;
+
+
+
   
 }
 
@@ -35,7 +37,7 @@ body{
   border: 1px solid black;
   left: 70%;
   top: 10px;
-  animation: onsirena 1s infinite linear ;
+  animation: onsirena 1s infinite linear;  
 }
 
 
@@ -60,24 +62,24 @@ body{
 
 @keyframes carmove{
 
-    25%{
 
-      left: 25%;
+    49%{
+      transform: scalex(1);
+      left: 100%;
     }
 
-    50%{
-      left: 50%;
+    50%  {
+      transform: scalex(-1);
+      left: 100%;
     }
 
     100%  {
+      transform: scalex(-1);
 
-      left: 85%;
     }
 
-
-
-
   }
+
 
 
 
