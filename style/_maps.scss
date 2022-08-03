@@ -97,6 +97,10 @@ h2{
 
 // Working process cards //
 
+.card{
+  filter: drop-shadow(0 0 28.5px rgba(20,20,21,0.2));
+}
+
 .card-text{
   color: white;
   @include font400;
@@ -160,6 +164,11 @@ h4{
 .btn_padding{
   margin-bottom: 30px;
 }
+
+.iccons{
+  
+}
+
 
 .iccon{
   max-height: 90px;
