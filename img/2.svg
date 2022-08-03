@@ -1,0 +1,16 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 44" width="45" height="44">
+	<title>Work Procces</title>
+	<defs>
+		<image width="45" height="44" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAsCAYAAADxRjE/AAAAAXNSR0IArs4c6QAAAsFJREFUaEPtmTFuVDEQhue/ABcIB4AekT6ij6CPoE6UC3CAFX0E/Yp+CT3iABF9uEAukAtM9K+8kZ+f59njWQhI6ybRPj/7e+PxePwPZE9NVY9E5L2IHIsI/9+1WxH5ISLfANzvYzpEB1HVZwmWwEuNwGsA6+icIegE/FlEXjpANgBWjv6zrlHoLyLyegDgKmLxYWhVfSciHweAd6+cArgbeT8C/b3YcN75h91kCFpV6RJ0jVAD8GpkgAm0ql6KyBuGKABX1oCqykjBvtF2DuCmNkja5HQ/bnJGnc2u3yO0qvLh12wAc/mSP/Pjoo0bknF80ipR6R7ASQ2aBwL9NG/Dfjf6NUYYvQNwOoPmD0ZE+GvgBjAPpYt8RWYb8anAe4Fp3Gr0MMCZP8z8b9QNKu9xj+Qn68zCVffIB9rD4RH5HhPYtPRuticCXwRuQqfN+StisoF3bwCcL73XPBFV1Qs9SYZU1ZtUHaB7V/pg6ZqlDj6drHJwj6p7pJR0KTf23gGjlubh8tvY9Xy2gqpGr03l+FHoVpTaEJqJv0cCaA36p6HXhCbwWxF5btD8S+7BLHPdE/K87hO19F6OcW/uEIVuCjk9lv4vob1yQdTSpqzQvLkELgJR6KZc1uMelHJ/tuJc9jwCfQvgrDVXEzrdXqj0UHDsaRHoVa4kWZP1Qnv8ehR6oiJFr1teSXcUmpxxS6fTkko//bq3RaC7wE33MICpXPLYX8pVvNAU1vPCUhPcUpho2evCwjz3L5K56eNWYcgDve2rqrWNbrpKTcsjcFn82QLnJbUkrH+o1Fx6oLli1Jwfyxce8Bp0maoy8T6z6iPJjZgJsn7IvzXoFyJC8XxbU1wYq8viZSWAIuCnbMc1Jare3dnbz7D4Sb7KJXRZDWjmAb0wnn4F+Cx+W/o0l5lierUe4gEY7ZvET3LQ9ycS8wNKm7ozZu+Y3AAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Work Procces">
+		<g id="2">
+			<g id="Group 6">
+				<use id="" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+			</g>
+		</g>
+	</g>
+</svg>

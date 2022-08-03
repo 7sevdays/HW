@@ -1,0 +1,16 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 52" width="56" height="52">
+	<title>Work Procces</title>
+	<defs>
+		<image width="56" height="52" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA0CAYAAADfRPtlAAAAAXNSR0IArs4c6QAABIFJREFUaEPNmk1uFDEQhV0HgAtwAvaIA0TsI9hH7APsIw4QsY9gTcQewT7iABH7cABygXCAQq9V1aqu9r97Jm0piibTY/tzPb8qe0Jh542ZX4YQnocQbonornW61PqBYzzPzK9CCADD76dmzO9EdNkyh90AZqA8zyURfa+FfFTABijLc0NEF7sFbIC6DyHcyA/k+sFAnRDRQw3kUSLYA2UNhZmfhRB+GqBqmR4McBTKR4eZv4mb4q1qmW4KuDWUhWTmtz0yHQY8JJQD7JJpF+CxoLaQaTVgAgpOh5X17Vr2SXPlEXNGMRkk/TduvKKbZgETUJi02ve/EMIvN6kHIjqpsfDcMwYKYCjVYq3opivAEhQRIWpzY+ZPUlLp31AznvcAVkI1Jf0JkJlR7713td8cKQ/lACGbj+Zv1RYuY0PiiFIuUrn1ysqUBA45xu+lKyLCXlo1+YwtiPUZSBcF8e0G8qsVQVamAPT5RTu+I6IzfVGAAhAilyyfOuRXC5hVDAC/yNEk1iEAscH16GIj9ZhQfq5JmeYi6DuB/EagVLbY21g0bIlYiqmNnH0uKVMAYjDswVgbhYLjak5cyVdkC5PCNhlpSZmqi6JS19XMTsrsyZL7JU3Kkwgo0k0q39XAR2WqgDhr6SomE3WDURQTcAQSqQrpBu7c06JjKqCX6QURQZ7IkaVI+cmsIsfMkOFrEyHIdaqGfEpxx6IW0KhM50qGma1MMTjMoDX5LqoYSS2fC9K7JqIrI/2cJ5SAVzK1gFampY5S759rRCJwcNG/UjBno87MkCqi3tpWMrWAIyuHidwT0amJhF2wSbYC7Ytz/ciploRSD8N0WttKpoti28m0tXMvNYDAOKZBJR1h0qnct7jzZObfrROQ5xcy9YAjMp3NRW6jUSGhTYbFzAqcmrcvDXMVVo59IVMPOCJTu/9Q2imgHp30dXJyRPTCSLwXcCHT2HnQummLSkoRLEluqwhizrNMY4C9MvV7UIFQGeEHUc21rfYgxphlGgPslamPQKvVW4n3zkEXcJZp9E5mwE3P9EZaUsIP9+1QKoI++q2LE+t3kmkKsFemiw0uqQGVjP0KzE/GSxNpBKeb3GdsH1r2oZCwuXOSaQpwRCILm5ZIog5FMW8njVIQkZtq3kb3nKHs590F2LTYyWvDAZlicOS+1b2MFO6I0J/Y9UahRItCucXxF2AnOcBemeqY1UcmiXLsqFSEMpGH6qAUW8Oe5wBHZKrjIopfU7dsCfm2QumVoy8Bp3Nt6Wa7N+l7I0EexJ7Tq3zsRb3MwrNbQdlx0yZjwj4q01xiPwTU6iBdiuAWMo1aundPvxKSYlLyq+6z+O3SgJvaSeC/InDaX6SEQ0HZfmsAe2Vae+UIlQxHKrUXagBbZLoLqKYI4uGCTHcH1QPoZbprqB7A5L3pMYwil2tK7xX3oMmJNun7E8BBjaIEkXu/BXBxvR9CeHdI9xuBapaoGE2Lm1ZXKVuBdKcJdxzJ3XTtBqorghJFFMn2u4ZdQnUDGsOBXJ+U/tng0PKr6f8/Ei7UkU/mFmYAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Work Procces">
+		<g id="4">
+			<g id="Group 6">
+				<use id="" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+			</g>
+		</g>
+	</g>
+</svg>

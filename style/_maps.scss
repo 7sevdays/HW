@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
-*, body, html {
+*, body, html{
   padding: 0;
   margin: 0;
   list-style-type: none;
@@ -7,182 +6,197 @@
   box-sizing: border-box;
 }
 
-.color-head {
-  background-color: #f5f5f5;
+
+.color-head{
+  background-color: $header-color;
 }
 
-.smart {
+
+.smart{
   font-size: 28px;
   line-height: 35px;
   text-decoration: none;
   color: #494949;
-  font-family: "Open Sans", sans-serif;
-  font-weight: bold;
+  @include font600;
   border: 1px solid #706b73;
   padding: 0 15px;
 }
 
-h1 {
-  font-family: "Open Sans", sans-serif;
-  font-weight: bold;
+h1{
+  @include font600;
   color: #6b6b6b;
   text-align: center;
   font-size: 50px;
   line-height: 46px;
   padding-bottom: 37px;
+  
 }
 
-.description_title {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
+.description_title{
+  @include font400;
   color: #565656;
   text-align: center;
 }
 
-.block_marging {
+.block_marging{
   margin-top: 105px;
 }
 
-.block_padding {
+.block_padding{
   padding-top: 44px;
 }
 
-.card-title {
+.card-title{
   text-align: center;
   padding-bottom: 30px;
 }
 
-.btn_form {
+.btn_form{
   text-decoration: none;
-  background-color: #ff5c36;
+  background-color:#ff5c36;
   color: white;
   padding: 10px 36px;
   border-radius: 40px;
   border: none;
+  
 }
 
-.button_text {
+.button_text{
   padding: 19px 0;
   text-align: center;
 }
 
-#exampleFormControlTextarea1 {
+#exampleFormControlTextarea1{
   resize: none;
   border: none;
   border-bottom: 1px solid grey;
 }
 
-#exampleInputEmail1 {
+#exampleInputEmail1{
   border: none;
   border-bottom: 1px solid grey;
 }
 
-#exampleInputPassword1 {
+#exampleInputPassword1{
   border: none;
   border-bottom: 1px solid grey;
 }
 
-h2 {
-  font-family: "Open Sans", sans-serif;
-  font-weight: bold;
+
+h2{
+  @include font600;
   color: #000000;
   text-align: center;
   font-size: 50px;
   line-height: 46px;
 }
 
-.marging_block {
+.marging_block{
   margin-top: 140px;
 }
 
-.card-text {
+// Working process cards //
+
+.card-text{
   color: white;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
+  @include font400;
   padding-bottom: 50px;
 }
 
-.card-title {
+.card-title{
   color: white;
-  font-family: "Open Sans", sans-serif;
-  font-weight: bold;
+  @include font600;
 }
 
-.padding_top_img {
+.padding_top_img{
   padding-top: 53px;
 }
 
-.btn_working {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
+.btn_working{
+  @include font400;
   text-decoration: none;
   color: black;
   padding: 22px 60px;
   background-color: #ffffff;
   border-radius: 27px;
-  filter: drop-shadow(1.91px 10.833px 10px rgba(20, 20, 21, 0.07));
+  filter: drop-shadow(1.91px 10.833px 10px rgba(20,20,21,0.07));
+
 }
 
-.featured_margin {
+
+// Featured Works //
+
+
+.featured_margin{
   margin-top: 280px;
 }
 
-.featured-block {
+.featured-block{
   height: 359px;
   margin-bottom: 22px;
 }
 
-.apple-watch {
+
+// Services We Provide //
+
+.apple-watch{
   max-width: 300px;
 }
 
-h4 {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
+
+h4{
+  @include font400;
   font-size: 30px;
 }
 
-.service_text {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
+.service_text{
+  @include font400;
   font-size: 16px;
   line-height: 25px;
+
+
 }
 
-.btn_padding {
+.btn_padding{
   margin-bottom: 30px;
 }
 
-.iccon {
+.iccon{
   max-height: 90px;
   width: 60px;
   padding-bottom: 30px;
 }
 
-.orange {
+
+// Colors //
+
+.orange{
   color: #fa9179;
 }
 
-.background_orange {
+.background_orange{
   background-color: #ff5c36;
 }
 
-.lightblue {
+
+// Working process cards //
+
+.lightblue{
   background-color: #4eb2f7;
   margin: auto;
 }
 
-.lilac {
+.lilac{
   background-color: #c049f8;
   margin: auto;
 }
 
-.blue {
+.blue{
   background-color: #817eff;
   margin: auto;
 }
 
-.pink {
+.pink{
   background-color: #f74770;
   margin: auto;
-}/*# sourceMappingURL=index.css.map */
+}
