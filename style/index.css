@@ -157,14 +157,54 @@ h4 {
   margin-bottom: 30px;
 }
 
+@media screen and (max-width: 750px) {
+  .apple-watch {
+    width: 100%;
+  }
+  .col-xl-6, .col-lg-6, .col-md-6, .col-sm-6 {
+    text-align: center;
+  }
+  .card {
+    margin: auto;
+  }
+}
+@media screen and (max-width: 578px) {
+  .iccons, .apple-watch {
+    display: none;
+  }
+}
 .iccon {
   max-height: 90px;
   width: 60px;
   padding-bottom: 30px;
 }
 
+.team_margin {
+  margin-top: 306px;
+}
+
+.title_text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.block-team {
+  border-radius: 2px;
+  filter: drop-shadow(1.042px 5.909px 8px rgba(20, 20, 21, 0.08));
+  background-color: #ffffff;
+}
+
+.height {
+  height: 446px;
+}
+
 .orange {
   color: #fa9179;
+}
+
+.black {
+  color: black;
 }
 
 .background_orange {
@@ -189,4 +229,8 @@ h4 {
 .pink {
   background-color: #f74770;
   margin: auto;
+}
+
+.light {
+  background-color: #fff3f0;
 }/*# sourceMappingURL=index.css.map */

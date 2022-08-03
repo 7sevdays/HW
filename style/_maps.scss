@@ -165,8 +165,25 @@ h4{
   margin-bottom: 30px;
 }
 
-.iccons{
-  
+
+@media screen and (max-width: 750px) {
+  .apple-watch{
+  width: 100%;
+  }
+  .col-xl-6, .col-lg-6, .col-md-6,.col-sm-6{
+    text-align: center;
+  }
+  .card{
+    margin: auto;
+  }
+}
+
+
+
+@media screen and (max-width: 578px) {
+  .iccons, .apple-watch{
+    display: none;
+  }
 }
 
 
@@ -177,18 +194,45 @@ h4{
 }
 
 
+// Team Chinen & Skills //
+
+.team_margin{
+  margin-top: 306px;
+}
+
+
+.title_text{
+  @include font600;
+  text-align: center;
+}
+
+.block-team{
+  border-radius: 2px;
+  filter: drop-shadow(1.042px 5.909px 8px rgba(20,20,21,0.08));
+  background-color: #ffffff;
+}
+
+.height{
+  height: 446px;
+}
+
+
 // Colors //
 
 .orange{
   color: #fa9179;
 }
 
+.black{
+  color: black;
+}
 .background_orange{
   background-color: #ff5c36;
 }
 
 
 // Working process cards //
+
 
 .lightblue{
   background-color: #4eb2f7;
@@ -208,4 +252,9 @@ h4{
 .pink{
   background-color: #f74770;
   margin: auto;
+}
+
+
+.light{
+  background-color: #fff3f0;
 }
