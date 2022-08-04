@@ -190,17 +190,53 @@ h4 {
 }
 
 .block-team {
+  width: 70%;
   border-radius: 2px;
   filter: drop-shadow(1.042px 5.909px 8px rgba(20, 20, 21, 0.08));
   background-color: #ffffff;
+  padding: 16px 56px;
 }
 
 .height {
   height: 446px;
 }
 
+.block-team_center img {
+  text-align: center;
+}
+
+.size {
+  font-size: 30px;
+  line-height: 46px;
+}
+
+.margin_bottom {
+  margin-bottom: 0;
+}
+
+.img-iccons {
+  text-align: center;
+}
+
+.img-iccons-social {
+  padding-right: 10px;
+}
+
+.img-iccons a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 786px) {
+  .block-team {
+    padding-bottom: 50px;
+  }
+}
 .orange {
   color: #fa9179;
+}
+
+.lightorange {
+  color: #ff967a;
 }
 
 .black {
