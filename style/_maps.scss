@@ -208,6 +208,8 @@ h4{
   }
 }
 
+
+
 .team_margin{
   margin-top: 306px;
 }
@@ -223,7 +225,6 @@ h4{
   border-radius: 2px;
   filter: drop-shadow(1.042px 5.909px 8px rgba(20,20,21,0.08));
   background-color: #ffffff;
-  padding: 16px 56px;
 
 }
 
@@ -317,7 +318,6 @@ line-height: 46px;
 }
 
 
-
 .card{
   filter: none;
 }
@@ -332,6 +332,24 @@ line-height: 46px;
 .filter_shadow{
  filter: drop-shadow(0 0 10.6px rgba(20, 20, 21, 0.2));
 }
+
+// Partners //
+
+.margin_bottom{
+  margin-bottom: 91px;
+}
+
+@media screen and (max-width:990px) {
+  .partners{
+    text-align: center;
+  }
+  .partner{
+    padding-bottom: 50px;
+  }
+}
+
+
+
 
 // Colors //
 .background_orange{
