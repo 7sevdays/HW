@@ -1,4 +1,6 @@
-*, body, html{
+*,
+body,
+html {
   padding: 0;
   margin: 0;
   list-style-type: none;
@@ -6,84 +8,79 @@
   box-sizing: border-box;
 }
 
-
-.color-head{
+.color-head {
   background-color: $header-color;
 }
 
-
-.smart{
+.smart {
   font-size: 28px;
   line-height: 35px;
   text-decoration: none;
   color: #494949;
   @include font600;
-  border: 1px solid #706b73;
+  border: 3px solid #706b73;
   padding: 0 15px;
 }
 
-h1{
+h1 {
   @include font600;
   color: #6b6b6b;
   text-align: center;
   font-size: 50px;
   line-height: 46px;
   padding-bottom: 37px;
-  
 }
 
-.description_title{
+.description_title {
   @include font400;
   color: #565656;
   text-align: center;
 }
 
-.block_marging{
+.block_marging {
   margin-top: 105px;
 }
 
-.block_padding{
+.block_padding {
   padding-top: 44px;
 }
 
-.card-title{
+.card-title {
   text-align: center;
   padding-bottom: 30px;
 }
 
-.btn_form{
+.btn_form {
   text-decoration: none;
-  background-color:#ff5c36;
+  background-color: #ff5c36;
   color: white;
   padding: 10px 36px;
   border-radius: 40px;
   border: none;
-  
 }
 
-.button_text{
+.button_text {
   padding: 19px 0;
   text-align: center;
 }
 
-#exampleFormControlTextarea1{
+#exampleFormControlTextarea1 {
   resize: none;
   border: none;
   border-bottom: 1px solid grey;
 }
 
-#exampleInputEmail1{
+#exampleInputEmail1 {
   border: none;
   border-bottom: 1px solid grey;
 }
 
-#exampleInputPassword1{
+#exampleInputPassword1 {
   border: none;
   border-bottom: 1px solid grey;
 }
 
-
-h2{
+h2 {
   @include font600;
   color: #000000;
   text-align: center;
@@ -91,306 +88,307 @@ h2{
   line-height: 46px;
 }
 
-.marging_block{
+.marging_block {
   margin-top: 140px;
 }
 
 // Working process cards //
 
-.card{
-  filter: drop-shadow(0 0 28.5px rgba(20,20,21,0.2));
+.card {
+  filter: drop-shadow(0 0 28.5px rgba(20, 20, 21, 0.2));
 }
 
-.card-text{
+.card-text {
   color: white;
   @include font400;
   padding-bottom: 50px;
 }
 
-.card-title{
+.card-title {
   color: white;
   @include font600;
 }
 
-.padding_top_img{
+.padding_top_img {
   padding-top: 53px;
 }
 
-.btn_working{
+.btn_working {
   @include font400;
   text-decoration: none;
   color: black;
   padding: 22px 60px;
   background-color: #ffffff;
   border-radius: 27px;
-  filter: drop-shadow(1.91px 10.833px 10px rgba(20,20,21,0.07));
-
+  filter: drop-shadow(1.91px 10.833px 10px rgba(20, 20, 21, 0.07));
 }
-
 
 // Featured Works //
 
-
-.featured_margin{
+.featured_margin {
   margin-top: 280px;
 }
 
-.featured-block{
+.featured-block {
   height: 359px;
   margin-bottom: 22px;
 }
 
-
 // Services We Provide //
 
-.apple-watch{
+.apple-watch {
   max-width: 300px;
 }
 
-
-h4{
+h4 {
   @include font400;
   font-size: 30px;
 }
 
-.service_text{
+.service_text {
   @include font400;
   font-size: 16px;
   line-height: 25px;
-
-
 }
 
-.btn_padding{
+.btn_padding {
   margin-bottom: 30px;
 }
 
-
 @media screen and (max-width: 750px) {
-  .apple-watch{
-  width: 100%;
+  .apple-watch {
+    width: 100%;
   }
-  .col-xl-6, .col-lg-6, .col-md-6,.col-sm-6{
+  .col-xl-6,
+  .col-lg-6,
+  .col-md-6,
+  .col-sm-6 {
     text-align: center;
   }
-  .card{
+  .card {
     margin: auto;
   }
 }
 
-
-
 @media screen and (max-width: 578px) {
-  .iccons, .apple-watch{
+  .iccons,
+  .apple-watch {
     display: none;
   }
 }
 
-
-.iccon{
-  max-height: 90px;
+.iccon {
+  max-height: 100px;
   width: 60px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
-
 
 // Team Chinen & Skills //
 
-.hidden{
+.hidden {
   position: relative;
   visibility: hidden;
 }
 
-.invise_block:hover{
+.invise_block:hover {
   visibility: hidden;
-  .hidden{
+  .hidden {
     visibility: visible;
   }
 }
 
-
-
-.team_margin{
+.team_margin {
   margin-top: 306px;
 }
 
-
-.title_text{
+.title_text {
   @include font600;
   text-align: center;
 }
 
-.block-team{
+.block-team {
   width: 70%;
   border-radius: 2px;
-  filter: drop-shadow(1.042px 5.909px 8px rgba(20,20,21,0.08));
+  filter: drop-shadow(1.042px 5.909px 8px rgba(20, 20, 21, 0.08));
   background-color: #ffffff;
-
 }
 
-.height{
+.height {
   height: 446px;
 }
 
-
-.block-team_center img{
-text-align: center;
-}
-
-.size{
-font-size: 30px;
-line-height: 46px;
-}
-
-.margin_bottom{
-  margin-bottom: 0;
-}
-
-.img-iccons{
+.block-team_center img {
   text-align: center;
 }
 
-.img-iccons-social{
+.size {
+  font-size: 30px;
+  line-height: 46px;
+}
+
+.margin_bottom {
+  margin-bottom: 0;
+}
+
+.img-iccons {
+  text-align: center;
+}
+
+.img-iccons-social {
   padding-right: 10px;
 }
 
-.img-iccons a{
+.img-iccons a {
   text-decoration: none;
 }
 
-@media screen and (max-width:786px) {
-  .block-team{
+@media screen and (max-width: 786px) {
+  .block-team {
     padding-bottom: 50px;
   }
 }
 
-
 // Clients Said //
 
-.carousel-indicators{
+// .white_circle{
+//   background-color: white;
+//   color: black;
+//   border-radius: 50%;
+//   filter: none!important;
+
+// }
+
+.carousel-indicators {
   position: static;
   margin-top: 53px;
 }
 
-.text_aling{
+.text_aling {
   text-align: center;
 }
 
-.img_stars{
+.img_stars {
   padding-bottom: 18px;
 }
 
-.text_padding_stars{
+.text_padding_stars {
   padding: 95px 50px 0;
 }
 
-.description_stars{
+.description_stars {
   @include font600;
   font-weight: 400;
 }
 
-.carousel-control-next{
-  opacity: 1!important;
+.carousel-control-next {
+  opacity: 1 !important;
 }
 
-.carousel-caption{
+.carousel-caption {
   position: static;
 }
-.carousel-indicators [data-bs-target]{
+.carousel-indicators [data-bs-target] {
   width: 18px;
   border-radius: 2px;
 }
 
- .carousel-control-next-icon:hover{
+.carousel-control-next-icon:hover {
   background-color: #ff6e47;
   border-radius: 50%;
   filter: none;
 }
 
-.carousel-control-prev-icon:hover{
+.carousel-control-prev-icon:hover {
   background-color: #ff6e47;
   border-radius: 50%;
   filter: none;
 }
 
-.carousel-indicators .active{
-  background-color: #ff6e47!important;
+.carousel-indicators .active {
+  background-color: #ff6e47 !important;
 }
 
-
-.card{
+.card {
   filter: none;
 }
 
-.img_clients{
+.img_clients {
   width: 90px;
   height: 90px;
   border-radius: 50%;
   border: 1px solid black;
 }
 
-.filter_shadow{
- filter: drop-shadow(0 0 10.6px rgba(20, 20, 21, 0.2));
+.filter_shadow {
+  filter: drop-shadow(0 0 10.6px rgba(20, 20, 21, 0.2));
 }
 
 // Partners //
 
-.margin_bottom{
+.margin_bottom_partners {
   margin-bottom: 91px;
 }
 
-@media screen and (max-width:990px) {
-  .partners{
+@media screen and (max-width: 990px) {
+  .partners {
     text-align: center;
   }
-  .partner{
+  .partner {
     padding-bottom: 50px;
   }
 }
 
+.border_bottom {
+  padding-bottom: 15px;
+  border-bottom: 2px solid#ff5c36;
+}
 
+.p-b-h {
+  padding-bottom: 30px;
+}
 
+@media screen and (max-width: 600px) {
+  .border_bottom {
+    padding-bottom: 0px;
+  }
+}
 
 // Colors //
-.background_orange{
+.background_orange {
   background-color: #ff5c36;
 }
-.orange{
-  color: #fa9179;
+.orange {
+  color: #fc6f4e;
 }
-.lightorange{
+.lightorange {
   color: #ff967a;
 }
-.black{
+.black {
   color: black;
 }
 
-
-
 // Working process cards //
 
-
-.lightblue{
+.lightblue {
   background-color: #4eb2f7;
   margin: auto;
 }
 
-.lilac{
+.lilac {
   background-color: #c049f8;
   margin: auto;
 }
 
-.blue{
+.blue {
   background-color: #817eff;
   margin: auto;
 }
 
-.pink{
+.pink {
   background-color: #f74770;
   margin: auto;
 }
 
-
-.light{
+.light {
   background-color: #fff3f0;
 }
