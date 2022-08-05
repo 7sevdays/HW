@@ -196,6 +196,18 @@ h4{
 
 // Team Chinen & Skills //
 
+.hidden{
+  position: relative;
+  visibility: hidden;
+}
+
+.invise_block:hover{
+  visibility: hidden;
+  .hidden{
+    visibility: visible;
+  }
+}
+
 .team_margin{
   margin-top: 306px;
 }
@@ -276,21 +288,6 @@ line-height: 46px;
   font-weight: 400;
 }
 
-.carousel-control-next, .carousel-control-prev{
-  bottom: 20%;
-}
-
-.filter{
-filter: none!important;
-}
-
-
-.carousel-control-next-icon{
-  background-color: #ff6e47;
-  border-radius: 50%;
-
-}
-
 .carousel-control-next{
   opacity: 1!important;
 }
@@ -303,8 +300,43 @@ filter: none!important;
   border-radius: 2px;
 }
 
-// Colors //
+ .carousel-control-next-icon:hover{
+  background-color: #ff6e47;
+  border-radius: 50%;
+  filter: none;
+}
 
+.carousel-control-prev-icon:hover{
+  background-color: #ff6e47;
+  border-radius: 50%;
+  filter: none;
+}
+
+.carousel-indicators .active{
+  background-color: #ff6e47!important;
+}
+
+
+
+.card{
+  filter: none;
+}
+
+.img_clients{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.filter_shadow{
+ filter: drop-shadow(0 0 10.6px rgba(20, 20, 21, 0.2));
+}
+
+// Colors //
+.background_orange{
+  background-color: #ff5c36;
+}
 .orange{
   color: #fa9179;
 }
@@ -314,9 +346,7 @@ filter: none!important;
 .black{
   color: black;
 }
-.background_orange{
-  background-color: #ff5c36!important;
-}
+
 
 
 // Working process cards //
