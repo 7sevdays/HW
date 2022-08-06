@@ -8,7 +8,7 @@ html {
   box-sizing: border-box;
 }
 
-.color-head {
+header {
   background-color: $header-color;
 }
 
@@ -362,6 +362,18 @@ h4 {
 
 // footer //
 
+footer{
+  background-color: $header-color;
+}
+
+.contact_us{
+  padding-top: 50px;
+  text-align: center;
+}
+
+.m_f{
+  margin-top: 88px;
+}
 
 // Colors //
 .background_orange {
