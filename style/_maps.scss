@@ -247,16 +247,11 @@ h4 {
     padding-bottom: 50px;
   }
 }
-
-// Clients Said //
-
-// .white_circle{
-//   background-color: white;
-//   color: black;
-//   border-radius: 50%;
-//   filter: none!important;
-
-// }
+@media screen and (max-width: 825px) {
+  .block-team {
+    width: 80%;
+  }
+}
 
 .carousel-indicators {
   position: static;
@@ -322,6 +317,16 @@ h4 {
 .filter_shadow {
   filter: drop-shadow(0 0 10.6px rgba(20, 20, 21, 0.2));
 }
+
+.padding_top_carousel{
+  padding-top: 30px;
+}
+
+.block_carousel_margin{
+  margin-top: 84px;
+}
+
+
 
 // Partners //
 
