@@ -358,13 +358,17 @@ h4 {
   margin-top: 84px;
 }
 
-@media screen and (max-width:775px) {
+@media screen and (max-width:767px) {
 
+  .adapt_carousel_hid{
+    display: none;
+  }
 
-  .carousel-caption-width{
+  .adapt_carousel{
     width: 100%;
   }
-  
+
+
 }
 
 
