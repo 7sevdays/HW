@@ -56,6 +56,11 @@ h1 {
   padding-bottom: 30px;
 }
 
+@media screen and (max-width: 1100px) {
+  .form_card {
+    margin: auto;
+  }
+}
 .btn_form {
   text-decoration: none;
   background-color: #ff5c36;
@@ -347,6 +352,11 @@ h4 {
   margin-top: 84px;
 }
 
+@media screen and (max-width: 775px) {
+  .carousel-caption-width {
+    width: 100%;
+  }
+}
 .margin_bottom_partners {
   margin-bottom: 91px;
 }
@@ -392,16 +402,16 @@ footer {
   background-color: #d3d3d3;
 }
 .footer-facebook {
-  padding: 20px 21px 16px 22px;
+  padding: 20px 31px 16px 22px;
 }
 .footer-twitter {
-  padding: 20px 16px 17px 18px;
+  padding: 20px 26px 17px 28px;
 }
 .footer-ico-circle {
-  padding: 20px 18px 16px 18px;
+  padding: 20px 28px 16px 28px;
 }
 .footer-be {
-  padding: 20px 17px 17px 17px;
+  padding: 20px 27px 17px 27px;
 }
 .footer-text {
   font-family: "Open Sans", sans-serif;
@@ -417,7 +427,7 @@ footer {
 .footer-all-iccons {
   text-align: end;
 }
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 766px) {
   .footer .footer-text {
     text-align: center;
   }

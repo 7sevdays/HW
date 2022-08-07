@@ -51,6 +51,12 @@ h1 {
   padding-bottom: 30px;
 }
 
+@media screen and (max-width:1100px) {
+  .form_card{
+    margin: auto;
+  }
+}
+
 .btn_form {
   text-decoration: none;
   background-color: #ff5c36;
@@ -340,7 +346,6 @@ h4 {
 }
 
 
-
 .filter_shadow {
   filter: drop-shadow(0 0 10.6px rgba(20, 20, 21, 0.2));
 }
@@ -353,6 +358,15 @@ h4 {
   margin-top: 84px;
 }
 
+@media screen and (max-width:775px) {
+
+
+  .carousel-caption-width{
+    width: 100%;
+  }
+  
+}
+
 
 
 // Partners //
@@ -362,6 +376,7 @@ h4 {
 }
 
 @media screen and (max-width: 990px) {
+
   .partners {
     text-align: center;
   }
@@ -408,16 +423,16 @@ footer{
     background-color: #d3d3d3;
   }
     &-facebook{
-      padding: 20px 21px 16px 22px;
+      padding: 20px 31px 16px 22px;
     }
     &-twitter{
-      padding: 20px 16px 17px 18px;
+      padding: 20px 26px 17px 28px;
     }
     &-ico-circle{
-      padding: 20px 18px 16px 18px;
+      padding: 20px 28px 16px 28px;
     }
     &-be{
-      padding: 20px 17px 17px 17px;
+      padding: 20px 27px 17px 27px;
     }
     &-text{
       @include font400;
@@ -432,7 +447,7 @@ footer{
     &-all-iccons{
       text-align: end;
     }
-    @media screen and (max-width:630px) {
+    @media screen and (max-width:766px) {
       .footer-text{
         text-align: center;
       }
