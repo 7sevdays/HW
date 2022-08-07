@@ -51,11 +51,6 @@ h1 {
   padding-bottom: 30px;
 }
 
-@media screen and (max-width:1100px) {
-  .form_card{
-    margin: auto;
-  }
-}
 
 .btn_form {
   text-decoration: none;
@@ -101,6 +96,9 @@ h2 {
 
 // Working process cards //
 
+.form_card{
+  width: 25rem;
+}
 .card {
   filter: drop-shadow(0 0 28.5px rgba(20, 20, 21, 0.2));
 }
@@ -160,28 +158,6 @@ h4 {
 
 .btn_padding {
   margin-bottom: 30px;
-}
-
-@media screen and (max-width: 750px) {
-  .apple-watch {
-    width: 100%;
-  }
-  .col-xl-6,
-  .col-lg-6,
-  .col-md-6,
-  .col-sm-6 {
-    text-align: center;
-  }
-  .card {
-    margin: auto;
-  }
-}
-
-@media screen and (max-width: 578px) {
-  .iccons,
-  .apple-watch {
-    display: none;
-  }
 }
 
 .iccon {
@@ -247,17 +223,6 @@ h4 {
 
 .img-iccons a {
   text-decoration: none;
-}
-
-@media screen and (max-width: 786px) {
-  .block-team {
-    padding-bottom: 50px;
-  }
-}
-@media screen and (max-width: 825px) {
-  .block-team {
-    width: 80%;
-  }
 }
 
 .carousel-indicators {
@@ -358,19 +323,6 @@ h4 {
   margin-top: 84px;
 }
 
-@media screen and (max-width:767px) {
-
-  .adapt_carousel_hid{
-    display: none;
-  }
-
-  .adapt_carousel{
-    width: 100%;
-  }
-
-
-}
-
 
 
 // Partners //
@@ -379,15 +331,6 @@ h4 {
   margin-bottom: 91px;
 }
 
-@media screen and (max-width: 990px) {
-
-  .partners {
-    text-align: center;
-  }
-  .partner {
-    padding-bottom: 50px;
-  }
-}
 
 .border_bottom {
   padding-bottom: 15px;
@@ -489,10 +432,6 @@ footer{
    filter: drop-shadow(1.91px 10.833px 10px rgba(20, 20, 21, 0.07));
 }
 
-
-
-
-
 // Colors //
 .background_orange {
   background-color: #ff5c36;
@@ -531,4 +470,84 @@ footer{
 
 .light {
   background-color: #fff3f0;
+}
+
+
+// Адаптация //
+
+@media screen and (max-width:767px) {
+
+  .adapt_carousel_hid{
+    display: none;
+  }
+
+  .adapt_carousel{
+    width: 100%;
+  }
+
+
+}
+
+@media screen and (max-width: 990px) {
+
+  .partners {
+    text-align: center;
+  }
+  .partner {
+    padding-bottom: 50px;
+  }
+}
+
+
+@media screen and (max-width:1100px) {
+  .form_card{
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .apple-watch {
+    width: 100%;
+  }
+  .col-xl-6,
+  .col-lg-6,
+  .col-md-6,
+  .col-sm-6 {
+    text-align: center;
+  }
+  .card {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 578px) {
+  .iccons,
+  .apple-watch {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 786px) {
+  .block-team {
+    padding-bottom: 50px;
+  }
+}
+@media screen and (max-width: 825px) {
+  .block-team {
+    width: 80%;
+  }
+}
+
+
+@media screen and (max-width:377px) {
+  .form_card{
+    width: 300px;
+  }
+}
+
+@media screen and (max-width:415px) {
+  .form_card{
+    width: 300px;
+  }
 }
