@@ -299,7 +299,9 @@
           <div class="row">
             <div class="col-1">
               <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <svg xmlns="http://www.w3.org/2000/svg"aria-hidden="true"  width="40" height="45" fill="currentColor" class="bi bi-chevron-compact-left left-right filter_shadow" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M9.224 1.553a.5.5 0 0 1 .223.67L6.56 8l2.888 5.776a.5.5 0 1 1-.894.448l-3-6a.5.5 0 0 1 0-.448l3-6a.5.5 0 0 1 .67-.223z"/>
+                </svg>
                 <span class="visually-hidden">Previous</span>
               </button>
             </div>
@@ -308,7 +310,7 @@
             <div class="row">
               <div class="col-sm-6 col-6 col-lg-6 padding_top_carousel">
                 <div class="carousel-caption d-none d-md-block">
-                <div class="card text_aling filter_shadow">
+                <div class="card text_aling filter_shadow w-100">
                   <div class="card-body">
                     <div class="position-absolute top-0 start-50 translate-middle">
                     <img  class="img_clients " src="./img/operator.jpg" alt="face">
@@ -324,7 +326,7 @@
               </div>
               <div class="col-sm-6 col-6 col-lg-6 padding_top_carousel">
                 <div class="carousel-caption d-none d-md-block">
-                <div class="card text_aling">
+                <div class="card text_aling w-100">
                   <div class="card-body">
                     <div class="position-absolute top-0 start-50 translate-middle">
                       <img  class="img_clients " src="./img/operator.jpg" alt="face">
@@ -376,7 +378,6 @@
                 </div>
                 </div>
               </div>
-              
             </div>
               <div class="carousel-item">
                 <div class="row">
@@ -417,7 +418,9 @@
               </div>
                 <div class="col-1">
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                  <span class="carousel-control-next-icon filter" aria-hidden="true"></span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="45" fill="currentColor" class="bi bi-chevron-compact-right left-right filter_shadow" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671z"/>
+                  </svg>
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
@@ -468,12 +471,33 @@
       </div>
     </div>
   </main>
-  <footer class="m_f">
+  <footer class="m_f footer">
     <div class="container-xl">
-      <div class="row contact_us">
-        <div class="col-12">
-          <a href="#" class="btn_working">Contact Us</a>
+        <div class="p-c-t">
+          <a href="#" class="btn_working padding_contact">Contact Us</a>
         </div>
+      <div class="m_f padding">
+        <div class="row align-items-center">
+          <div class="col-12  col-md-6 col-lg-6">
+        <div class="footer-all-iccons">
+          <a class="footer-iccon footer-facebook" href="#">
+            <img  src="./img/footer_fb.png" alt="facebook">
+          </a>
+          <a class="footer-iccon footer-twitter m_l_b" href="#">
+            <img src="./img/footer_tw.png" alt="twitter">
+          </a>
+          <a class="footer-iccon footer-ico-circle m_l_b" href="#">
+            <img src="./img/ico-circle.png" alt="ico-circle">
+          </a>
+          <a class="footer-iccon footer-be m_l_b" href="#">
+            <img src="./img/be.png" alt="be">
+          </a>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-6">
+          <p class="footer-text">© 2015 - 2016 Deviserweb Ltd.</p>
+      </div>
+      </div>
       </div>
     </div>
   </footer>

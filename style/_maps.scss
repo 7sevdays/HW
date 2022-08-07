@@ -1,6 +1,4 @@
-*,
-body,
-html {
+*,body, html {
   padding: 0;
   margin: 0;
   list-style-type: none;
@@ -8,6 +6,9 @@ html {
   box-sizing: border-box;
 }
 
+a{
+  text-decoration: none;
+}
 header {
   background-color: $header-color;
 }
@@ -290,19 +291,41 @@ h4 {
 
 
 .carousel-control-next-icon:hover {
-  background-color: #ff6e47;
+  background-color: $bk-orange;
   border-radius: 50%;
   filter: none;
+}
+
+.carousel-control-prev{
+  opacity: 1;
+  
 }
 
 .carousel-control-prev-icon:hover {
-  background-color: #ff6e47;
+  background-color: $bk-orange;
   border-radius: 50%;
   filter: none;
 }
 
+.left-right{
+  padding: 8px;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+ 
+}
+
+
+.left-right:hover{
+  background-color: $bk-orange;
+  border-radius: 50%;
+  color: white;
+  
+}
+
+
 .carousel-indicators .active {
-  background-color: #ff6e47 !important;
+  background-color: $bk-orange !important;
 }
 
 .card {
@@ -315,6 +338,8 @@ h4 {
   border-radius: 50%;
   border: 1px solid black;
 }
+
+
 
 .filter_shadow {
   filter: drop-shadow(0 0 10.6px rgba(20, 20, 21, 0.2));
@@ -367,13 +392,87 @@ footer{
 }
 
 .contact_us{
-  padding-top: 50px;
   text-align: center;
 }
 
 .m_f{
   margin-top: 88px;
 }
+
+.footer{
+  
+  &-iccon{
+    width: 53px;
+    height: 53px;
+    border-radius: 50%;
+    background-color: #d3d3d3;
+  }
+    &-facebook{
+      padding: 20px 21px 16px 22px;
+    }
+    &-twitter{
+      padding: 20px 16px 17px 18px;
+    }
+    &-ico-circle{
+      padding: 20px 18px 16px 18px;
+    }
+    &-be{
+      padding: 20px 17px 17px 17px;
+    }
+    &-text{
+      @include font400;
+      font-size: 17px;
+      line-height: 46px;
+      color: #040404;
+      font-weight: 400;
+      font-family: "Open Sans";
+      text-align: start;
+      margin-bottom: 0rem!important;
+    }
+    &-all-iccons{
+      text-align: end;
+    }
+    @media screen and (max-width:630px) {
+      .footer-text{
+        text-align: center;
+      }
+      .footer-all-iccons{
+        padding-bottom: 50px;
+        text-align: center;
+      }
+    }
+  }
+
+
+.p-c-t{
+  text-align: center;
+  padding-top: 50px;
+}
+
+.m_l_b{
+  margin-left: 16px;
+}
+
+.m_r_b{
+  margin-right: 25px;
+}
+
+.padding{
+  padding-bottom: 56px;
+}
+
+.padding_contact{
+  padding: 20px 80px;
+}
+
+.footer-iccon:hover{
+  background-color: $bk-orange;
+   filter: drop-shadow(1.91px 10.833px 10px rgba(20, 20, 21, 0.07));
+}
+
+
+
+
 
 // Colors //
 .background_orange {

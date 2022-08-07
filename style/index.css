@@ -1,12 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
-*,
-body,
-html {
+*, body, html {
   padding: 0;
   margin: 0;
   list-style-type: none;
   text-decoration: none;
   box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
 }
 
 header {
@@ -295,10 +297,27 @@ h4 {
   filter: none;
 }
 
+.carousel-control-prev {
+  opacity: 1;
+}
+
 .carousel-control-prev-icon:hover {
   background-color: #ff6e47;
   border-radius: 50%;
   filter: none;
+}
+
+.left-right {
+  padding: 8px;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+}
+
+.left-right:hover {
+  background-color: #ff6e47;
+  border-radius: 50%;
+  color: white;
 }
 
 .carousel-indicators .active {
@@ -359,12 +378,79 @@ footer {
 }
 
 .contact_us {
-  padding-top: 50px;
   text-align: center;
 }
 
 .m_f {
   margin-top: 88px;
+}
+
+.footer-iccon {
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+  background-color: #d3d3d3;
+}
+.footer-facebook {
+  padding: 20px 21px 16px 22px;
+}
+.footer-twitter {
+  padding: 20px 16px 17px 18px;
+}
+.footer-ico-circle {
+  padding: 20px 18px 16px 18px;
+}
+.footer-be {
+  padding: 20px 17px 17px 17px;
+}
+.footer-text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 46px;
+  color: #040404;
+  font-weight: 400;
+  font-family: "Open Sans";
+  text-align: start;
+  margin-bottom: 0rem !important;
+}
+.footer-all-iccons {
+  text-align: end;
+}
+@media screen and (max-width: 630px) {
+  .footer .footer-text {
+    text-align: center;
+  }
+  .footer .footer-all-iccons {
+    padding-bottom: 50px;
+    text-align: center;
+  }
+}
+
+.p-c-t {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.m_l_b {
+  margin-left: 16px;
+}
+
+.m_r_b {
+  margin-right: 25px;
+}
+
+.padding {
+  padding-bottom: 56px;
+}
+
+.padding_contact {
+  padding: 20px 80px;
+}
+
+.footer-iccon:hover {
+  background-color: #ff6e47;
+  filter: drop-shadow(1.91px 10.833px 10px rgba(20, 20, 21, 0.07));
 }
 
 .background_orange {
