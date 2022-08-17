@@ -5,10 +5,9 @@ $blue-color:  #24A3FF;
 $bg-grey-color: #F5F5FA;
 
 
-@mixin font($siz, $wei, $lin) {
+@mixin font($wei, $siz, $lin) {
   font-family: 'TT Norms';
   font-weight: $wei;
-  color: rgb(0, 0, 0);
   font-size: $siz;
   line-height: $lin;
 }

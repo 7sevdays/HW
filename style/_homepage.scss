@@ -1,5 +1,80 @@
-.test{
-  width: 1400px;
-  height: 1000px;
-  
+*, body, html{
+  padding: 0;
+  margin: 0;
+  list-style-type: none!important;
+  text-decoration: none!important;
+  box-sizing: border-box;
 }
+
+a{
+  color: $white-color;
+}
+
+span{
+  color: $base-color;
+}
+
+.bi-circle{
+  background: #E6E6F0;
+  border-radius: 50%;
+}
+
+.wrap{
+  background: $core-gradient;
+  color: $white-color;
+   &-nav{
+    padding: 50px 60px 63px 60px;
+    &-logo{
+      width: 155px;
+      height: 46.73px;
+      &-name{
+        @include font(700, 45px, 40px);
+      }
+
+    }
+    &-language{
+      @include font(700, 12px, 14.16px);
+      padding-right: 20px;
+      &-padding-left{
+        padding-left: 10px
+      }
+    }
+    &-address{
+      @include font(400, 16px, 18.88px);
+      padding-right: 13px;
+      &-odessa-bottom{
+        margin-bottom: 0;
+      }
+    }
+    &-number{
+      @include font(700, 16px, 18.88px);
+      padding-right: 11px;
+    }
+    &-facebook{
+      padding-left: 10px;
+    }
+    &-menu{
+      &-link{
+        @include font(400, 18px, 21.24px);
+        padding-left: 15px;
+      }
+    }
+}
+&-title{
+  @include font(400, 38px, 44.85px);
+  padding-top: 65px;
+  padding-right: 50px;
+}
+&-img-p{
+  padding-top: 185px;
+  &-padding{
+    padding-right: 200px
+  }
+}
+&-bg-p{
+  background-image: url(../img/bg-p.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+}
+
