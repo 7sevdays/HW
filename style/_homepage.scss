@@ -19,6 +19,7 @@ span{
   border-radius: 50%;
 }
 
+
 .wrap{
   background: $core-gradient;
   color: $white-color;
@@ -70,6 +71,13 @@ span{
   &-padding{
     padding-right: 200px
   }
+  // &-shadow{
+  //   background: linear-gradient(180deg, rgba(50, 50, 100, 0) 16.67%, #323264 100%);
+  //   position: absolute;
+  //   width: 100%;
+  //   height: 100px;
+  //   bottom: 1px;
+  // }
 }
 &-bg-p{
   background-image: url(../img/bg-p.png);
@@ -85,21 +93,39 @@ span{
 &-info{
   --bs-gutter-x: 0px;
   margin-top: 80px;
+
   &-left{
     padding-right: 40px;
     text-align: end;
     border-right: 4px solid #E6E6F0;
+    :hover{
+      background-image: $gradient;
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+    }
+    :last-child{
+      padding-bottom: 0px;
+    }
     &-text{
       @include font(700, 42px, 49.57px);
       color: $grey-color;
-      &:hover{
-        color: $gradient;
-      }
+      padding-bottom: 20px;
+      margin-bottom: 0px;
     }
   }
   &-right{
+    padding-top: 50px;
     padding-left: 40px;
+    &-title{
+      @include font(400, 32px, 37.77px)
+    }
+    &-desribe{
+      padding-top: 20px;
+      @include font(400, 21px, 30px)
+    }
+    }
   }
 }
-}
+
 

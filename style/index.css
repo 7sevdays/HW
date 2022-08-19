@@ -107,18 +107,40 @@ span {
   text-align: end;
   border-right: 4px solid #E6E6F0;
 }
+.wrap-info-left :hover {
+  background-image: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.wrap-info-left :last-child {
+  padding-bottom: 0px;
+}
 .wrap-info-left-text {
   font-family: "TT Norms";
   font-weight: 700;
   font-size: 42px;
   line-height: 49.57px;
   color: #B3B3BA;
-}
-.wrap-info-left-text:hover {
-  color: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+  padding-bottom: 20px;
+  margin-bottom: 0px;
 }
 .wrap-info-right {
+  padding-top: 50px;
   padding-left: 40px;
+}
+.wrap-info-right-title {
+  font-family: "TT Norms";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37.77px;
+}
+.wrap-info-right-desribe {
+  padding-top: 20px;
+  font-family: "TT Norms";
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
 }
 
 @font-face {
