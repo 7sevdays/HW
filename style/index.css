@@ -69,7 +69,7 @@ span {
 .wrap-nav-menu-link {
   font-family: "TT Norms";
   font-weight: 400;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 21.24px;
   padding-left: 15px;
 }
@@ -91,6 +91,34 @@ span {
   background-image: url(../img/bg-p.png);
   background-repeat: no-repeat;
   background-position: center;
+}
+.wrap-circle {
+  position: absolute;
+  bottom: 30px;
+  left: 46%;
+  opacity: 50%;
+}
+.wrap-info {
+  --bs-gutter-x: 0px;
+  margin-top: 80px;
+}
+.wrap-info-left {
+  padding-right: 40px;
+  text-align: end;
+  border-right: 4px solid #E6E6F0;
+}
+.wrap-info-left-text {
+  font-family: "TT Norms";
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49.57px;
+  color: #B3B3BA;
+}
+.wrap-info-left-text:hover {
+  color: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+}
+.wrap-info-right {
+  padding-left: 40px;
 }
 
 @font-face {
