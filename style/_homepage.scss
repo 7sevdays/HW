@@ -19,10 +19,15 @@ span{
   border-radius: 50%;
 }
 
+.row{
+  margin-right: 0px;
+  margin-left: 0px;
+}
 
 .wrap{
   background: $core-gradient;
   color: $white-color;
+  border-radius: 0 0 12px 12px;
    &-nav{
     padding: 50px 60px 63px 60px;
     &-logo{
@@ -31,7 +36,6 @@ span{
       &-name{
         @include font(700, 45px, 40px);
       }
-
     }
     &-language{
       @include font(700, 12px, 14.16px);
@@ -71,13 +75,7 @@ span{
   &-padding{
     padding-right: 200px
   }
-  // &-shadow{
-  //   background: linear-gradient(180deg, rgba(50, 50, 100, 0) 16.67%, #323264 100%);
-  //   position: absolute;
-  //   width: 100%;
-  //   height: 100px;
-  //   bottom: 1px;
-  // }
+
 }
 &-bg-p{
   background-image: url(../img/bg-p.png);
@@ -86,7 +84,7 @@ span{
 }
 &-circle{
   position: absolute;
-  bottom: 30px;
+  bottom: -130px;
   left: 46%;
   opacity: 50%;
 }
@@ -99,6 +97,7 @@ span{
     text-align: end;
     border-right: 4px solid #E6E6F0;
     :hover{
+      cursor: pointer;
       background-image: $gradient;
       background-clip: text;
       -webkit-background-clip: text;
@@ -126,6 +125,97 @@ span{
     }
     }
   }
+  &-p-l-r{
+    padding-left: 60px;
+    padding-right: 60px
+  }
+  &-service{
+    @include font(400, 14px, 16.52px);
+    margin-top: 80px;
+    opacity: 0.5;
+  }
+  &-describe-service{
+    @include font(700, 42px, 49.57px);
+    background-image: linear-gradient(280.13deg, #EF8080 0.84%, #F0145A 99.96%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+  }
+  &-card-padding{
+    padding-top: 68px;
+  }
+  &-card-img{
+    width: 92px;
+    height: 92px;
+    background-color: white;
+    border-radius: 24px;
+    padding: 12px;
+  }
+  &-card-title{
+    @include font(400, 24px, 28.32px);
+    color: $blue-color;
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+  &-card-describe{
+    @include font(400, 18px, 26px)
+  }
 }
 
+  .wrap-shadow{
+    margin: auto;
+    width: 95vw;
+    height: 10px;
+    background-color: #CACADB;
+    border-radius: 0 0 12px 12px;
 
+  }
+
+  .wrap-shadow-2{
+    margin: auto;
+    width: 90%;
+    height: 10px;
+    background-color: #E7E7F2;
+    border-radius: 0 0 12px 12px;
+    bottom: -20px;
+  }
+
+  // Карусель
+
+  .carousel{
+    &-p-l-b{
+      padding-left: 40px;
+    }
+    &-img{
+      --bs-gutter-x: 0px;
+    }
+    &-bg{
+      background-color: $bg-grey-color;
+      border-radius: 12px;
+    }
+    margin-top: 40px;
+    &-link-team{
+      padding-top: 40px;
+      color: $blue-color;
+      letter-spacing: 1px;
+      @include font(700, 14px, 16.52px)
+    }
+    &-title{
+      @include font(700, 42px, 50px);
+      background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    &-author{
+      @include font(400, 18px, 21px);
+      color: $grey-color;
+      &-p-t{
+        padding-top: 20px;
+      }
+    }
+  }
+
+  .carousel-indicators{
+    position: static;
+  }

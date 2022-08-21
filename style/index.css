@@ -19,9 +19,15 @@ span {
   border-radius: 50%;
 }
 
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
 .wrap {
   background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
   color: white;
+  border-radius: 0 0 12px 12px;
 }
 .wrap-nav {
   padding: 50px 60px 63px 60px;
@@ -94,7 +100,7 @@ span {
 }
 .wrap-circle {
   position: absolute;
-  bottom: 30px;
+  bottom: -130px;
   left: 46%;
   opacity: 50%;
 }
@@ -108,6 +114,7 @@ span {
   border-right: 4px solid #E6E6F0;
 }
 .wrap-info-left :hover {
+  cursor: pointer;
   background-image: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -141,6 +148,117 @@ span {
   font-weight: 400;
   font-size: 21px;
   line-height: 30px;
+}
+.wrap-p-l-r {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.wrap-service {
+  font-family: "TT Norms";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.52px;
+  margin-top: 80px;
+  opacity: 0.5;
+}
+.wrap-describe-service {
+  font-family: "TT Norms";
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49.57px;
+  background-image: linear-gradient(280.13deg, #EF8080 0.84%, #F0145A 99.96%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.wrap-card-padding {
+  padding-top: 68px;
+}
+.wrap-card-img {
+  width: 92px;
+  height: 92px;
+  background-color: white;
+  border-radius: 24px;
+  padding: 12px;
+}
+.wrap-card-title {
+  font-family: "TT Norms";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28.32px;
+  color: #24A3FF;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+.wrap-card-describe {
+  font-family: "TT Norms";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.wrap-shadow {
+  margin: auto;
+  width: 95vw;
+  height: 10px;
+  background-color: #CACADB;
+  border-radius: 0 0 12px 12px;
+}
+
+.wrap-shadow-2 {
+  margin: auto;
+  width: 90%;
+  height: 10px;
+  background-color: #E7E7F2;
+  border-radius: 0 0 12px 12px;
+  bottom: -20px;
+}
+
+.carousel {
+  margin-top: 40px;
+}
+.carousel-p-l-b {
+  padding-left: 40px;
+}
+.carousel-img {
+  --bs-gutter-x: 0px;
+}
+.carousel-bg {
+  background-color: #F5F5FA;
+  border-radius: 12px;
+}
+.carousel-link-team {
+  padding-top: 40px;
+  color: #24A3FF;
+  letter-spacing: 1px;
+  font-family: "TT Norms";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16.52px;
+}
+.carousel-title {
+  font-family: "TT Norms";
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.carousel-author {
+  font-family: "TT Norms";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #B3B3BA;
+}
+.carousel-author-p-t {
+  padding-top: 20px;
+}
+
+.carousel-indicators {
+  position: static;
 }
 
 @font-face {
