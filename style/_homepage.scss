@@ -217,7 +217,7 @@ span{
   }
 
   .carousel-indicators{
-    position: static;
+    bottom: -70px;
   }
 
   .carousel-indicators [data-bs-target]{
@@ -232,4 +232,6 @@ span{
     opacity: 1;
     background-color: $blue-color!important;
   }
+
+
 

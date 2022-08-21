@@ -258,7 +258,7 @@ span {
 }
 
 .carousel-indicators {
-  position: static;
+  bottom: -70px;
 }
 
 .carousel-indicators [data-bs-target] {
