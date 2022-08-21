@@ -261,6 +261,18 @@ span {
   position: static;
 }
 
+.carousel-indicators [data-bs-target] {
+  width: 16px;
+  height: 16px;
+  background-color: blue;
+  opacity: 0.2;
+  border-radius: 50%;
+}
+
+.carousel-indicators [data-bs-target]:hover {
+  color: blue;
+}
+
 @font-face {
   font-family: "TT Norms";
   src: url("../fonts/TTNorms-Regular.eot");
