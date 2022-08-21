@@ -261,7 +261,16 @@ span {
   position: static;
 }
 
+.carousel-indicators [data-bs-target] {
+  width: 16px;
+  height: 16px;
+  background-color: #24A3FF;
+  opacity: 0.2;
+  border-radius: 50%;
+}
+
 .carousel-indicators .active {
+  opacity: 1;
   background-color: #24A3FF !important;
 }
 
