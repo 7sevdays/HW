@@ -220,14 +220,14 @@ span{
     position: static;
   }
 
-  .carousel-indicators [data-bs-target]{
-    width: 16px;
-    height: 16px;
-    background-color: blue;
-    opacity: 0.2;
-    border-radius: 50%;
-  }
+  // .carousel-indicators [data-bs-target]{
+  //   width: 16px;
+  //   height: 16px;
+  //   background-color: $blue-color;
+  //   opacity: 0.2;
+  //   border-radius: 50%;
+  // }
 
-  .carousel-indicators [data-bs-target]:hover{
-    color: blue;
+  .carousel-indicators .active{
+    background-color: $blue-color!important;
   }
