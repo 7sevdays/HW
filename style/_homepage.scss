@@ -243,7 +243,7 @@ span{
   margin-top: 81px;
   display: grid;
   grid-template-columns: 400px  1fr 1fr;
-  grid-template-rows: 100px 200px 200px ;
+  grid-template-rows: 50px 200px 200px 200px ;
 
   &-top-block{
     background-color: $bg-grey-color;
@@ -256,9 +256,10 @@ span{
     grid-column-start: 3;
     grid-column-end: 3;
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 2;
   }
   &-block-two{
+    height: 260px;
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -266,7 +267,7 @@ span{
     grid-column-start: 2;
     grid-column-end: 2;
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 2;
   }
   &-s-c{
     display: flex;
@@ -285,3 +286,4 @@ span{
     color: #B3B3BA;
   }
 }
+
