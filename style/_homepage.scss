@@ -84,7 +84,7 @@ span{
 }
 &-circle{
   position: absolute;
-  bottom: -130px;
+  bottom: -50px;
   left: 46%;
   opacity: 50%;
 }
@@ -140,6 +140,9 @@ span{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
+  }
+  &-card-padding-b{
+    padding-bottom: 80px;
   }
   &-card-padding{
     padding-top: 68px;
