@@ -275,46 +275,98 @@ span {
 }
 
 .successful-cases {
-  grid-gap: 10px;
+  grid-gap: 5px;
   margin: 10px;
   border-radius: 12px;
   margin-top: 81px;
   display: grid;
-  grid-template-columns: 400px 1fr 1fr;
-  grid-template-rows: 50px 200px 200px 200px;
+  grid-template-columns: 300px 1fr 2fr 2fr 3fr 1fr;
+  grid-template-rows: 50px 200px 200px;
 }
 .successful-cases-top-block {
   background-color: #F5F5FA;
 }
 .successful-cases-block {
+  padding-top: 87px;
+  justify-content: center;
+  height: 255px;
   display: flex;
   flex-direction: column;
-  margin: auto;
   text-align: justify;
-  grid-column-start: 3;
-  grid-column-end: 3;
+  grid-column-start: 5;
+  grid-column-end: 7;
   grid-row-start: 1;
   grid-row-end: 2;
 }
 .successful-cases-block-two {
-  height: 260px;
+  padding-top: 87px;
+  justify-content: center;
+  height: 255px;
   display: flex;
   flex-direction: column;
-  margin: auto;
   text-align: justify;
-  grid-column-start: 2;
-  grid-column-end: 2;
+  grid-column-start: 3;
+  grid-column-end: 5;
   grid-row-start: 1;
+  grid-row-end: 2;
+}
+.successful-cases-block-hitel {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
   grid-row-end: 2;
 }
 .successful-cases-s-c {
+  align-items: center;
   display: flex;
   grid-column-start: 1;
-  grid-column-end: 2;
+  grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 2;
 }
+.successful-cases-3d-look {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+.successful-cases-adtelligent {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+.successful-cases-clikky {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  grid-column-start: 4;
+  grid-column-end: 7;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+.successful-cases-s-s-text {
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  padding-left: 20px;
+  font-family: "TT Norms";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15.52px;
+  color: #F0145A;
+}
 .successful-cases-title-text {
+  padding-left: 20px;
   text-align: start;
   font-family: "TT Norms";
   font-weight: 400;
@@ -323,11 +375,15 @@ span {
   color: #686887;
 }
 .successful-cases-p-text {
+  padding-left: 20px;
   font-family: "TT Norms";
   font-weight: 400;
   font-size: 18px;
   line-height: 26px;
   color: #B3B3BA;
+}
+.successful-cases-padding-top-text {
+  padding-top: 48px;
 }
 
 @font-face {
