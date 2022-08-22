@@ -274,6 +274,61 @@ span {
   background-color: #24A3FF !important;
 }
 
+.successful-cases {
+  grid-gap: 10px;
+  margin: 10px;
+  border-radius: 12px;
+  margin-top: 81px;
+  display: grid;
+  grid-template-columns: 400px 1fr 1fr;
+  grid-template-rows: 100px 200px 200px;
+}
+.successful-cases-top-block {
+  background-color: #F5F5FA;
+}
+.successful-cases-block {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: justify;
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.successful-cases-block-two {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: justify;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.successful-cases-s-c {
+  display: flex;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.successful-cases-title-text {
+  text-align: start;
+  font-family: "TT Norms";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28.32px;
+  color: #686887;
+}
+.successful-cases-p-text {
+  font-family: "TT Norms";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #B3B3BA;
+}
+
 @font-face {
   font-family: "TT Norms";
   src: url("../fonts/TTNorms-Regular.eot");

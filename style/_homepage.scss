@@ -234,4 +234,54 @@ span{
   }
 
 
+// Успешные кейсы
 
+.successful-cases{
+  grid-gap: 10px;
+  margin: 10px;
+  border-radius: 12px;
+  margin-top: 81px;
+  display: grid;
+  grid-template-columns: 400px  1fr 1fr;
+  grid-template-rows: 100px 200px 200px ;
+
+  &-top-block{
+    background-color: $bg-grey-color;
+  }
+  &-block{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: justify;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  &-block-two{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: justify;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  &-s-c{
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  &-title-text{
+    text-align: start;
+    @include font (400, 24px, 28.32px);
+    color: #686887;
+  }
+  &-p-text{
+    @include font(400, 18px, 26px);
+    color: #B3B3BA;
+  }
+}
