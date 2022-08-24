@@ -341,22 +341,13 @@ span {
   grid-row-end: 3;
 }
 .successful-cases-adtelligent {
-  display: flex;
   flex-direction: column;
   text-align: justify;
   grid-column-start: 2;
-  grid-column-end: 4;
-  grid-row-start: 3;
-  grid-row-end: 3;
-}
-.successful-cases-clikky {
-  display: flex;
-  flex-direction: column;
-  text-align: justify;
-  grid-column-start: 4;
   grid-column-end: 7;
   grid-row-start: 3;
   grid-row-end: 3;
+  justify-content: end;
 }
 .successful-cases-s-s-text {
   text-transform: uppercase;
@@ -387,6 +378,121 @@ span {
 }
 .successful-cases-padding-top-text {
   padding-top: 48px;
+}
+.successful-cases-padding-left {
+  padding-left: 0px !important;
+}
+.successful-cases-border-right {
+  border-right: 5px solid white;
+}
+.successful-cases-height {
+  height: 200px;
+}
+.successful-cases-p-t-l {
+  padding-top: 70px;
+}
+
+.trust_us {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 30px;
+  text-align: center;
+}
+.trust_us-title {
+  text-transform: uppercase;
+  font-family: "TT Norms";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16.52px;
+  color: #323264;
+  padding-bottom: 30px;
+}
+.trust_us-skipp {
+  --bs-gutter-x: 0rem;
+}
+.trust_us-img-1 {
+  background-image: url(../img/Item-hitel.png);
+  height: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.trust_us-img-2 {
+  background-image: url(../img/Item-wannaBiz.png);
+  height: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.trust_us-img-3 {
+  background-image: url(../img/Item-tapgereni.png);
+  height: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.trust_us-img-4 {
+  background-image: url(../img/Item-3dlook.png);
+  height: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.trust_us-img-5 {
+  background-image: url(../img/Item-aranger.png);
+  height: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.trust_us-img-6 {
+  background-image: url(../img/Item-adtel.png);
+  height: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.trust_us-img-7 {
+  background-image: url(../img/Item-clicky.png);
+  height: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.trust_us-img-8 {
+  background-image: url(../img/Item-fashing.png);
+  height: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.trust_us-img-9 {
+  background-image: url(../img/Item-infatek.png);
+  height: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.trust_us-img-10 {
+  background-image: url(../img/Item-city-park.png);
+  height: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.trust_us-img-11 {
+  background-image: url(../img/Item-art-print.png);
+  height: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.trust_us-img-12 {
+  background-image: url(../img/Item-ultimate.png);
+  height: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @font-face {

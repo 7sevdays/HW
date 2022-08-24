@@ -306,24 +306,15 @@ span{
   }
 
   &-adtelligent{
-    display: flex;
     flex-direction: column;
     text-align: justify;
     grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 3;
-    grid-row-end: 3;
-  }
-
-  &-clikky{
-    display: flex;
-    flex-direction: column;
-    text-align: justify;
-    grid-column-start: 4;
     grid-column-end: 7;
     grid-row-start: 3;
     grid-row-end: 3;
+    justify-content: end;
   }
+
   &-s-s-text{
     text-transform: uppercase;
     margin-bottom: 0px;
@@ -345,5 +336,81 @@ span{
   &-padding-top-text{
     padding-top: 48px;
   }
+  &-padding-left{
+    padding-left: 0px!important;
+  }
+  &-border-right{
+    border-right: 5px solid white;
+  }
+  &-height{
+    height: 200px;
+  }
+  &-p-t-l{
+    padding-top: 70px;
+  }
 }
 
+.trust_us{
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 30px;
+  text-align: center;
+  &-title{
+    text-transform: uppercase;
+    @include font(700,14px, 16.52px);
+    color:#323264;
+    padding-bottom: 30px;
+  }
+  &-skipp{
+    --bs-gutter-x: 0rem;
+  }
+  &-img-1{
+   background-image: url(../img/Item-hitel.png);
+   @include background-size;
+  }
+  &-img-2{
+    background-image: url(../img/Item-wannaBiz.png);
+    @include background-size;
+   }
+   &-img-3{
+    background-image: url(../img/Item-tapgereni.png);
+    @include background-size;
+   }
+   &-img-4{
+    background-image: url(../img/Item-3dlook.png);
+    @include background-size;
+   }
+   &-img-5{
+    background-image: url(../img/Item-aranger.png);
+    @include background-size;
+   }
+   &-img-6{
+    background-image: url(../img/Item-adtel.png);
+    @include background-size;
+   }
+   &-img-7{
+    background-image: url(../img/Item-clicky.png);
+    @include background-size;
+   }
+   &-img-8{
+    background-image: url(../img/Item-fashing.png);
+    @include background-size;
+   }
+   &-img-9{
+    background-image: url(../img/Item-infatek.png);
+    @include background-size;
+   }
+   &-img-10{
+    background-image: url(../img/Item-city-park.png);
+    @include background-size;
+   }
+   &-img-11{
+    background-image: url(../img/Item-art-print.png);
+    @include background-size;
+   }
+   &-img-12{
+    background-image: url(../img/Item-ultimate.png);
+    @include background-size;
+   }
+   
+}
