@@ -1,5 +1,225 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.wrap {
+  background-color: lightgray;
+  height: 1200px;
+}
 
+.wrap_top {
+  padding-top: 50px;
+}
 
+#but {
+  display: none;
+}
 
-/*# sourceMappingURL=index.css.map */
+.but {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  background-color: lightgray;
+  border-radius: 30px;
+  text-align: center;
+  box-shadow: 2px 2px 5px rgb(56, 55, 55), -2px -2px 5px white;
+  color: rgb(0, 0, 0);
+}
+
+#but_2 {
+  display: none;
+}
+
+.but_2 {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  background-color: lightgray;
+  border-radius: 30px;
+  text-align: center;
+  box-shadow: inset 2px 2px 5px rgb(56, 55, 55), inset -2px -2px 5px white;
+  color: rgb(0, 0, 0);
+}
+
+#but_3 {
+  display: none;
+}
+
+.but_3 {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: lightgray;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 2px 2px 5px rgb(56, 55, 55), -2px -2px 5px white;
+  color: rgb(0, 0, 0);
+}
+
+#but_4 {
+  display: none;
+}
+
+.but_4 {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: lightgray;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 2px 2px 5px rgb(56, 55, 55), -2px -2px 5px white;
+  color: rgb(0, 0, 0);
+}
+
+#r-of {
+  display: none;
+}
+
+.r-of {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: lightgray;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 2px 2px 5px rgb(56, 55, 55), -2px -2px 5px white;
+  color: rgb(0, 0, 0);
+}
+
+#r-act {
+  display: none;
+}
+
+.r-act {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: lightgray;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 2px 2px 5px rgb(56, 55, 55), -2px -2px 5px white;
+  color: rgb(0, 0, 0);
+}
+
+#r-act:checked ~ .r-act {
+  box-shadow: inset 2px -2px 3px rgb(56, 55, 55), inset -1px -1px 5px white;
+}
+#r-act:checked ~ .r-act .check_1 {
+  background-color: rgb(17, 17, 17);
+  border-radius: 50%;
+}
+
+#but_5 {
+  display: none;
+}
+
+.but_5 {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: lightgray;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 2px 2px 5px rgb(56, 55, 55), -2px -2px 5px white;
+  color: rgb(0, 0, 0);
+}
+
+#but_6 {
+  display: none;
+}
+
+.but_6 {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: lightgray;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 2px 2px 5px rgb(56, 55, 55), -2px -2px 5px white;
+  color: rgb(0, 0, 0);
+}
+
+#act-but {
+  display: none;
+}
+
+.act-butt {
+  position: relative;
+  display: flex;
+  width: 150px;
+  height: 50px;
+  background-color: lightgray;
+  box-shadow: 2px 2px 5px rgb(56, 55, 55), -2px -2px 5px white;
+  border-radius: 40px;
+  align-items: center;
+  padding-left: 5px;
+}
+
+.act-butt::before {
+  content: "";
+  display: flex;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  left: 5px;
+  transition: 0.5s;
+}
+
+#act-but:checked ~ .act-butt {
+  background-color: rgb(44, 0, 177);
+  box-shadow: none;
+}
+
+#act-but:checked ~ .act-butt::before {
+  left: 105px;
+}
+
+#act-but-2 {
+  display: none;
+}
+
+.act-butt-2 {
+  display: flex;
+  width: 150px;
+  height: 50px;
+  background-color: lightgray;
+  box-shadow: 2px 2px 5px rgb(56, 55, 55), -2px -2px 5px white;
+  border-radius: 40px;
+  align-items: center;
+  padding-left: 5px;
+  margin-top: 30px;
+}
+
+.act-butt-2::before {
+  content: "";
+  display: flex;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  left: 5px;
+  transition: 0.5s;
+}/*# sourceMappingURL=index.css.map */
