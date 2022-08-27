@@ -26,8 +26,10 @@ span{
 .gradient-main{
   background: $core-gradient;
 }
+.gradient{
+  background: $head-gradient;
+}
 .wrap{
-  background: $core-gradient;
   color: $white-color;
   border-radius: 0 0 12px 12px;
    &-nav{
@@ -91,7 +93,7 @@ span{
 }
 &-info{
   --bs-gutter-x: 0px;
-  margin-top: 80px;
+  padding-top: 80px;
 
   &-left{
     padding-right: 40px;
@@ -165,6 +167,7 @@ span{
     @include font(400, 18px, 26px)
   }
   &-shadow-p{
+    bottom: 0;
     width: 100%;
     height: 200px;
     background: linear-gradient(180deg, rgba(50, 50, 100, 0) 16.67%, #323264 100%);
