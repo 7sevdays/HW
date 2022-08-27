@@ -23,7 +23,9 @@ span{
   margin-right: 0px;
   margin-left: 0px;
 }
-
+.gradient-main{
+  background: $core-gradient;
+}
 .wrap{
   background: $core-gradient;
   color: $white-color;
@@ -84,7 +86,6 @@ span{
 }
 &-circle{
   position: absolute;
-  bottom: -50px;
   left: 46%;
   opacity: 50%;
 }
@@ -163,6 +164,11 @@ span{
   &-card-describe{
     @include font(400, 18px, 26px)
   }
+  &-shadow-p{
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(180deg, rgba(50, 50, 100, 0) 16.67%, #323264 100%);
+  }
 }
 
   .wrap-shadow{
@@ -240,6 +246,9 @@ span{
 // Успешные кейсы
 
 .successful-cases{
+  &-padding{
+    padding: 0px 60px;
+  }
   grid-gap: 5px;
   margin: 10px;
   border-radius: 12px;
@@ -486,6 +495,7 @@ span{
     text-align: start;
   }
   &-dis-text{
+    margin-bottom: 0px;
     color: $grey-color;
     @include font(700, 12px, 14px);
     text-transform: uppercase;
@@ -497,13 +507,14 @@ span{
   &-dis-bot-text{
     color: black;
     @include font(400, 16px, 22px);
-    padding-bottom: 20px;
+    padding-bottom: 10px;
   }
   &-blure-block{
     bottom: 0px;
     width: 100%;
-    height: 200px;
+    height: 100px;
     background: linear-gradient(180deg, rgba(245, 245, 250, 0) 0%, #F5F5FA 86.5%);
+    
   }
   &-button{
     position: absolute;
@@ -520,4 +531,92 @@ span{
     box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
     border-radius: 12px;
   }
+}
+
+.footer{
+  &-first-rows-grid{
+    display: grid;
+    grid-template-columns: 212px 212px 1fr;
+    grid-template-rows: 100px;
+    border-top: 4px solid #E6E6F0;
+    height: 80px;
+  }
+  &-second-rows-grid{
+    display: grid;
+    grid-template-columns: 50px 160px 212px 1fr;
+    grid-template-rows: 100px;
+    height: 80px;
+  }
+  &-adress-colomn{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+  &-map-colomn{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+  &-align{
+    align-items: baseline;
+  }
+  &-margin-left-map{
+    margin-left: 30px;
+  }
+  &-paddig-top{
+    padding-top: 30px;
+  }
+  padding: 80px 60px 0px 60px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: $bg-grey-color;
+  &-adress{
+    @include font(400,16px, 19px);
+    color: #323264;
+    margin-bottom: 0px
+  }
+  &-contact{
+    @include font (700,16px, 19px);
+    color: $blue-color;
+  }
+  &-map{
+    @include font (700,12px, 14px);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: $blue-color;
+    margin-bottom: 0px
+  }
+  &-company{
+    @include font (400,16px, 19px);
+    text-align: right;
+    color: $grey-color;
+  }
+  &-svg-margin{
+    margin-right: 10px;
+    margin-bottom: 3px;
+  }
+
+  &-number-alighn{
+    text-align: center;
+  }
+  &-number{
+    @include font(700, 16px, 18.88px);
+    color: #46466E;
+
+  }
+  &-second-rows-grid{
+    grid-template-columns: 50px 200px 200px 1fr;
+    grid-template-rows: 100px;
+  }
+}
+
+.line-white{
+  margin-top: 75px;
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  z-index: 2;
 }
