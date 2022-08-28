@@ -881,12 +881,20 @@ span{
   }
 }
 
-@media screen and (max-width: 706px) {
+@media screen and (max-width: 766px) {
   .adapt-carousel{
     flex-direction: column-reverse;
   }
   .adapt-carousel-img{
-    padding-left: 30px;
+    margin-left: 21px;
+    border-radius: 50%;
+    width: 80%!important;
+
+  }
+  .adapt-author{
+    position: absolute;
+    bottom: 0;
+    left: 32%;
   }
 }
 
@@ -897,5 +905,116 @@ span{
   }
   .wrap-card-title{
     padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 867px) {
+  .footer-first-rows-grid, .footer-second-rows-grid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+  }
+  .footer-paddig-top, .adapat-facebook, .footer-number-alighn, .footer-contact{
+    padding-top: 15px;
+  }
+  .footer-margin-left-map{
+    margin-left: 0px;
+  }
+  .footer-svg-margin{
+    display: none;
+  }
+  .footer-company{
+    margin-bottom: 0px;
+  }
+  .footer{
+    padding: 80px 60px 40px 60px;
+  }
+  .adapt-company{
+    position: absolute;
+    bottom: 0;
+  }
+  .adapt-number{
+    padding-bottom: 15px;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .wrap-bg-p{
+    background-image: none;
+  }
+  .wrap-img-p-padding{
+    padding-right: 0px;
+  }
+  .wrap-img-p-padding{
+    margin-right: 150px;
+  }
+  .menu__btn{
+    right: 13%;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .adapt-carousel-img{
+    width: 50%!important;
+  }
+  .adapt-author{
+    left: 24%;
+  }
+  .wrap-nav{
+    padding: 50px 21px;
+  }
+  .wrap-title{
+    padding-right: 0px;
+  }
+  .wrap-img-p{
+    padding-top: 119px;
+  }
+}
+
+
+@media screen and (max-width: 790px) {
+  .publications-dis-bot-text, .publications-cards-card-3, .publications-cards-card-5, .publications-cards-card-6{
+    display: none;
+  }
+  .publications-cards{
+    display: flex;
+    flex-direction: column;
+  }
+  .publications-cards-card-4{
+    padding-top: 0px;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  .menu__btn{
+    right: 7%;
+  }
+  .successful-cases-3d-look{
+    padding-top: 20px;
+  }
+  .successful-cases-height{
+    height: 250px;
+  }
+  .successful-cases-block, .successful-cases-block-two{
+    height: 150px;
+  }
+  .publications-padding, .wrap-p-l-r{
+    padding: 0px 20px;
+  }
+  .wrap-card-title{
+    font-size: 18px;
+    line-height: 21px;
+  }
+  
+}
+
+@media screen and (max-width: 412px) {
+  .menu__btn{
+    right: 11%;
+  }
+  .wrap-describe-service{
+    font-size: 30px;
+    line-height: 33px;
   }
 }
