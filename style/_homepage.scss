@@ -81,6 +81,9 @@ span{
       &-link{
         @include font(400, 15px, 21.24px);
         padding-left: 15px;
+        &:hover{
+          color: $base-color;
+        }
       }
     }
   }
@@ -1018,3 +1021,4 @@ span{
     line-height: 33px;
   }
 }
+

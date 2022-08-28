@@ -105,6 +105,9 @@ span {
   line-height: 21.24px;
   padding-left: 15px;
 }
+.wrap-nav-menu-link:hover {
+  color: #F0145A;
+}
 .wrap-title {
   font-family: "TT Norms";
   font-weight: 400;
