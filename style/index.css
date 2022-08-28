@@ -345,6 +345,13 @@ span {
     padding: 0px;
   }
 }
+@media screen and (max-width: 1000px) {
+  .successful-cases-padding {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 60px;
+  }
+}
 .successful-cases-top-block {
   background-color: #F5F5FA;
 }
@@ -365,6 +372,11 @@ span {
     padding-top: 0px;
   }
 }
+@media screen and (max-width: 1000px) {
+  .successful-cases-block {
+    height: 100px;
+  }
+}
 .successful-cases-block-two {
   padding-top: 87px;
   justify-content: center;
@@ -380,6 +392,11 @@ span {
 @media screen and (max-width: 1200px) {
   .successful-cases-block-two {
     padding-top: 0px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .successful-cases-block-two {
+    height: 100px;
   }
 }
 .successful-cases-block-hitel {
@@ -442,6 +459,12 @@ span {
     padding-left: 0px;
   }
 }
+@media screen and (max-width: 1000px) {
+  .successful-cases-title-text {
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+}
 .successful-cases-p-text {
   padding-left: 20px;
   font-family: "TT Norms";
@@ -453,6 +476,11 @@ span {
 @media screen and (max-width: 1035px) {
   .successful-cases-p-text {
     padding-left: 0px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .successful-cases-p-text {
+    padding-left: 20px;
   }
 }
 .successful-cases-padding-top-text {

@@ -286,6 +286,11 @@ span{
     @media screen and (max-width: 1200px) {
       padding: 0px;
     }
+    @media screen and (max-width: 1000px) {
+      display: flex;
+      flex-direction: column;
+      padding: 0px 60px;
+    }
   }
   grid-gap: 5px;
   margin: 10px;
@@ -312,6 +317,9 @@ span{
     @media screen and (max-width: 1200px) {
       padding-top: 0px;
     }
+    @media screen and (max-width: 1000px) {
+      height: 100px;
+    }
 
   }
   &-block-two{
@@ -327,6 +335,9 @@ span{
     grid-row-end: 2;
     @media screen and (max-width: 1200px) {
       padding-top: 0px;
+    }
+    @media screen and (max-width: 1000px) {
+      height: 100px;
     }
   }
   &-block-hitel{
@@ -384,6 +395,10 @@ span{
     @media screen and (max-width: 1035px) {
       padding-left: 0px;
     }
+    @media screen and (max-width: 1000px) {
+      padding-left: 20px;
+      padding-top: 10px;
+    }
   }
   &-p-text{
     padding-left: 20px;
@@ -391,6 +406,9 @@ span{
     color: #B3B3BA;
     @media screen and (max-width: 1035px) {
       padding-left: 0px;
+    }
+    @media screen and (max-width: 1000px) {
+      padding-left: 20px;
     }
   }
   &-padding-top-text{
