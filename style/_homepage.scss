@@ -63,6 +63,9 @@ span{
       &-odessa-bottom{
         margin-bottom: 0;
       }
+      @media screen and (max-width:875px) {
+        display: none;
+      }
     }
     &-number{
       @include font(700, 16px, 18.88px);
@@ -70,6 +73,9 @@ span{
     }
     &-facebook{
       padding-left: 10px;
+      @media screen and (max-width:757px) {
+        display: none;
+      }
     }
     &-menu{
       &-link{
@@ -129,6 +135,7 @@ span{
       @media screen and (max-width: 1030px) {
         border-right: none;
         text-align: center;
+        padding-right: 0px;
       }
       }
       &-right{
@@ -291,6 +298,10 @@ span{
       flex-direction: column;
       padding: 0px 60px;
     }
+    @media screen and (max-width: 760px) {
+
+      padding: 0px;
+    }
   }
   grid-gap: 5px;
   margin: 10px;
@@ -409,6 +420,7 @@ span{
     }
     @media screen and (max-width: 1000px) {
       padding-left: 20px;
+      margin-bottom: 0px;
     }
   }
   &-padding-top-text{
@@ -422,6 +434,9 @@ span{
   }
   &-border-right{
     border-right: 5px solid white;
+    @media screen and (max-width: 1000px) {
+      border-right: none;
+    }
   }
   &-height{
     height: 200px;
@@ -430,6 +445,9 @@ span{
     padding-top: 70px;
     @media screen and (max-width: 1200px) {
       padding-top: 35px;
+    }
+    @media screen and (max-width: 1000px) {
+      padding-top: 15px;
     }
   }
 }
@@ -545,6 +563,12 @@ span{
       @media screen and (max-width: 930px) {
         padding-top: 100px;
       }
+      @media screen and (max-width: 830px) {
+        padding-top: 150px;
+      }
+      @media screen and (max-width: 740px) {
+        padding-top: 200px;
+      }
     }
     &-card-5{
       margin-top: 180px;
@@ -569,6 +593,9 @@ span{
       }
       @media screen and (max-width: 930px) {
         padding-top: 220px;
+      }
+      @media screen and (max-width: 740px) {
+        padding-top: 280px;
       }
     }
   }
@@ -714,4 +741,161 @@ span{
 
 .padding-left{
   padding-left: 0px;
+}
+
+// Бургер меню 
+#menu__toggle {
+  opacity: 0;
+}
+
+#menu__toggle:checked ~ .menu__btn > span {
+  transform: rotate(45deg);
+}
+#menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+#menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+#menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  left: 0;
+}
+
+.menu__btn {
+  display: none;
+  // display: flex;
+  align-items: center;
+  position: absolute;
+  top: 90px;
+  right: 11%;
+  width: 26px;
+  height: 26px;
+
+  cursor: pointer;
+  z-index: 1;
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+
+  width: 100%;
+  height: 2px;
+
+  background-color: #ffffff;
+
+  transition-duration: .25s;
+}
+.menu__btn > span::before {
+  content: '';
+  top: -8px;
+}
+.menu__btn > span::after {
+  content: '';
+  top: 8px;
+}
+
+.menu__box {
+  display: none;
+  // display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  left: -100%;
+  z-index: 2;
+  width: 200px;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  background-color: #ECEFF1;
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+  transition-duration: .25s;
+}
+
+.menu__item {
+  display: block;
+  padding: 12px 24px;
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+
+  text-decoration: none;
+
+  transition-duration: .25s;
+}
+.menu__item:hover {
+  background-color: $base-color;
+}
+
+// Adapt
+
+@media screen and (max-width: 1000px) {
+  .adapt-successful-cases{
+    width: 100%;
+    padding-left: 20px;
+  }
+  .border-bottom-adapt{
+    border-bottom: 5px solid #ffffff;
+}
+}
+
+
+@media screen and(max-width: 755px) {
+  .circle-adapt{
+    display: none;
+  }
+  .wrap-adapt{
+    flex-direction: column-reverse;
+  }
+  .adapt-just{
+  justify-content: start!important;
+}
+  .grey-adapt{
+    color: $grey-color;
+  }
+  .adapt-language{
+    display: flex!important;
+    justify-content: space-between!important;
+  }
+  .wrap-nav-logo-name{
+    padding-top: 10px;
+    font-size: 22px;
+    line-height: 20px;
+    margin-bottom: 0px;
+  }
+  .menu{
+    display: none!important;
+  }
+  .menu__btn{
+    display: flex;
+  }
+  .menu__box{
+    display: block;
+  }
+}
+
+@media screen and (max-width: 706px) {
+  .adapt-carousel{
+    flex-direction: column-reverse;
+  }
+  .adapt-carousel-img{
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .adapt-card{
+    display: flex;
+    align-items: center;
+  }
+  .wrap-card-title{
+    padding-left: 10px;
+  }
 }

@@ -12,16 +12,30 @@
   <div class="wrap">
     <div class="gradient">
     <div class="wrap-nav">
-      <div class="row">
+      <div class="row wrap-adapt">
         <div class="col-3">
           <div class="wrap-nav-logo">
           <a href="#">
             <h2 class="wrap-nav-logo-name"><span>h</span>legals</h2>
             <p >юридична компанія</p>
           </a>
+          <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+              <span></span>
+            </label>
+            <ul class="menu__box">
+              <li><a class="menu__item" href="#">О НАС</a></li>
+              <li><a class="menu__item" href="#">ПОСЛУГИ</a></li>
+              <li><a class="menu__item" href="#">Команда</a></li>
+              <li><a class="menu__item" href="#">КОМАНДА</a></li>
+              <li><a class="menu__item" href="#">ПУБЛІКАЦІЇ</a></li>
+              <li><a class="menu__item" href="#">КОНТАКТИ</a></li>
+            </ul>
+          </div>
         </div>
         </div>
-        <div class="align-items-center col-9 d-inline-flex justify-content-end">
+        <div class="adapt-language align-items-center col-sm-12 col-md-9 col-lg-9 col-xl-9 col-xxl-9 col-12 d-inline-flex justify-content-end adapt-just">
           <div class="wrap-nav-language">
             <a class="wrap-nav-language-link" href="#">УК</a>
             <a class="wrap-nav-language-link wrap-nav-language-padding-left" href="#">РУ</a>
@@ -31,7 +45,7 @@
             <p class="wrap-nav-address-odessa-bottom">Одеса, Адміральський пр., 3</p>
           </div>
           <div class="wrap-nav-number">
-            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" fill="currentColor" class="bi bi-circle" viewBox="0 0 16 16">
+            <a class="grey-adapt" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" fill="currentColor" class="circle-adapt bi bi-circle" viewBox="0 0 16 16">
               <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
             </svg>	+38 (050) 390 15 91</a>
           </div>
@@ -65,7 +79,7 @@
   </div>
     <div class="gradient-main">
      <div class="row wrap-info">
-      <div class="col-5 wrap-info-left">
+      <div class="col-12 col-xxl-5 col-xl-5 col-lg-5 col-md-12 wrap-info-left">
         <h2 class="wrap-info-left-text">Послідовні</h2>
         <h2 class="wrap-info-left-text">Клієнтоорієнтовані<br></h2>
         <h2 class="wrap-info-left-text">Інноваційні</h2>
@@ -95,52 +109,62 @@
      </div>
      <!-- Карточки -->
      <div class="row wrap-card-padding">
-      <div class="col-4">
+      <div class="col-12 col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+        <div class="adapt-card">
         <img class="wrap-card-img" src=".//img/shop.svg">
         <h5 class="wrap-card-title">IT та електронна комерція</h5>
+        </div>
         <p class="wrap-card-describe">Нескінчений потік договорів, податкові питання, трудові відносини,
           корпоративні папери — юридична робота відволікає
           вас від ведення бізнесу. Але роботи не так вже й багато,
           щоб наймати інхауз-юриста. </p>
       </div>
-      <div class="col-4">
+      <div class="col-12 col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+        <div class="adapt-card">
         <img class="wrap-card-img" src=".//img/portfolio.svg">
         <h5 class="wrap-card-title">Комплексний щоденний
           юридичний супровід</h5>
+        </div>
         <p class="wrap-card-describe">До того ж, з часом робота стане
            однотипною і нецікавою для штатного юриста.
             А ще ми добре знаємо, як важко в Україні знайти хорошого
             кандидата з досвідом у сфері інформаційних технологій. </p>
       </div>
-      <div class="col-4">
+      <div class="col-12 col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+        <div class="adapt-card">
         <img class="wrap-card-img" src=".//img/crowd.svg">
         <h5 class="wrap-card-title">Структуризація корпоративних відносин</h5>
+        </div>
         <p class="wrap-card-describe">Замість просто надавати юридичні послуги,
           ми закріпимо юриста або цілу команду,
           які впишуться в повсякденне життя вашої компанії.  </p>
       </div>
-     </div>
-     <div class="row wrap-card-padding wrap-card-padding-b">
-      <div class="col-4">
+      <div class="col-12 col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+        <div class="adapt-card">
         <img class="wrap-card-img" src=".//img/hands.svg">
         <h5 class="wrap-card-title">Побудовa договірних відносин</h5>
+        </div>
         <p class="wrap-card-describe">Раз на тиждень, чи тиждень на місяць
            у вас під боком є ваш власний юрист.
             Будь-хто в компанії може впіймати його біля кавоварки
              і просто поговорити про поточні справи замість очікування
             статусу update. </p>
       </div>
-      <div class="col-4">
+      <div class="col-12 col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+        <div class="adapt-card">
         <img class="wrap-card-img" src=".//img/def.svg">
         <h5 class="wrap-card-title">Захист бізнесу, інтелектуальної власності</h5>
+        </div>
         <p class="wrap-card-describe">А весь інший час він працюватиме над новими
            різноплановими проектами, тому вже точно не зупиниться
             в професійному розвитку. Так чи інакше, на вас працюватиме
             весь Axon Partners замість корпоративного юриста.</p>
       </div>
-      <div class="col-4">
+      <div class="col-12 col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+        <div class="adapt-card">
         <img class="wrap-card-img" src=".//img/judge.svg">
         <h5 class="wrap-card-title">Судове представництво</h5>
+        </div>
         <p class="wrap-card-describe">Невелика компанія, середнього розміру,
            чи вже лідер ринку? Локальний бізнес або транснаціональна компанія?
           Маєте власний юридичний відділ, чи ні?</p>
@@ -157,9 +181,9 @@
     <div id="carouselExampleDark" class="carousel-bg carousel carousel-dark slide" data-bs-ride="carousel"> 
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="10000">
-          <div class="row">
+          <div class="row adapt-carousel">
             <div class="carousel-img col-4">
-              <img  src="./img/man.png" class="w-100" alt="man">
+              <img  src="./img/man.png" class="w-100 adapt-carousel-img" alt="man">
             </div>
             <div class="col-8 carousel-p-l-b">
             <a href="#">
@@ -174,7 +198,7 @@
             </div>
           </div>
         </div>
-        <div class="carousel-item" data-bs-interval="2000">
+        <!-- <div class="carousel-item" data-bs-interval="2000">
           <div class="row">
             <div class="carousel-img col-4">
               <img  src="./img/man.png" class="w-100" alt="man">
@@ -209,7 +233,7 @@
             <h4 class="carousel-author">Керуючий партнер</h4>
               </div>
           </div>
-        </div>
+        </div> -->
       </div>
       <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -242,11 +266,11 @@
     </div>
     <div class="successful-cases-adtelligent successful-cases-top-block">
       <div class="row successful-cases-height">
-        <div class="col-6 successful-cases-border-right">
+        <div class="col-6 successful-cases-border-right adapt-successful-cases border-bottom-adapt">
       <h3 class="successful-cases-title-text successful-cases-padding-left successful-cases-p-t-l">Оскарження податкових повідомлень-рішень ДФС</h3>
       <p class="successful-cases-p-text successful-cases-padding-left">adtelligent</p>
         </div>
-        <div class="col-6">
+        <div class="col-6 adapt-successful-cases">
       <h3 class="successful-cases-title-text successful-cases-padding-left successful-cases-p-t-l">Супровід проекту з кредитування агротрейдерів мальтійським банком</h3>
       <p class="successful-cases-p-text successful-cases-padding-left">Clikky</p>
         </div>
@@ -258,25 +282,25 @@
 <div class="trust_us container-fluid">
   <h3 class="trust_us-title">Вже довіряють нам</h3>
   <div class="row trust_us-skipp ">
-    <div class="col-3 trust_us-img-1"> </div>
-    <div class="col-3 trust_us-img-2"></div>
-    <div class="col-3 trust_us-img-3"></div>
-    <div class="col-3 trust_us-img-4"></div>
-    <div class="col-3 trust_us-img-5"></div>
-    <div class="col-3 trust_us-img-6"></div>
-    <div class="col-3 trust_us-img-7"></div>
-    <div class="col-3 trust_us-img-8"></div>
-    <div class="col-3 trust_us-img-9"></div>
-    <div class="col-3 trust_us-img-10"></div>
-    <div class="col-3 trust_us-img-11"></div>
-    <div class="col-3 trust_us-img-12"></div>
+    <div class="col-6 col-xxl-3 col-xl-3 col-lg-3 col-md-4 trust_us-img-1"> </div>
+    <div class="col-6 col-xxl-3 col-xl-3 col-lg-3 col-md-4 trust_us-img-2"></div>
+    <div class="col-6 col-xxl-3 col-xl-3 col-lg-3 col-md-4 trust_us-img-3"></div>
+    <div class="col-6 col-xxl-3 col-xl-3 col-lg-3 col-md-4 trust_us-img-4"></div>
+    <div class="col-6 col-xxl-3 col-xl-3 col-lg-3 col-md-4 trust_us-img-5"></div>
+    <div class="col-6 col-xxl-3 col-xl-3 col-lg-3 col-md-4 trust_us-img-6"></div>
+    <div class="col-6 col-xxl-3 col-xl-3 col-lg-3 col-md-4 trust_us-img-7"></div>
+    <div class="col-6 col-xxl-3 col-xl-3 col-lg-3 col-md-4 trust_us-img-8"></div>
+    <div class="col-6 col-xxl-3 col-xl-3 col-lg-3 col-md-4 trust_us-img-9"></div>
+    <div class="col-6 col-xxl-3 col-xl-3 col-lg-3 col-md-4 trust_us-img-10"></div>
+    <div class="col-6 col-xxl-3 col-xl-3 col-lg-3 col-md-4 trust_us-img-11"></div>
+    <div class="col-6 col-xxl-3 col-xl-3 col-lg-3 col-md-4 trust_us-img-12"></div>
   </div>
 </div>
 <!-- Публикации -->
 <div class="publications position-relative ">
   <div class="publications-padding">
     <div class="row">
-     <div class="col-2">
+     <div class="col-4 col-xxl-2">
       <a href="#">
         <h3 class="publications-title-link">Публікації<svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
           <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>

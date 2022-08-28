@@ -78,6 +78,11 @@ span {
 .wrap-nav-address-odessa-bottom {
   margin-bottom: 0;
 }
+@media screen and (max-width: 875px) {
+  .wrap-nav-address {
+    display: none;
+  }
+}
 .wrap-nav-number {
   font-family: "TT Norms";
   font-weight: 700;
@@ -87,6 +92,11 @@ span {
 }
 .wrap-nav-facebook {
   padding-left: 10px;
+}
+@media screen and (max-width: 757px) {
+  .wrap-nav-facebook {
+    display: none;
+  }
 }
 .wrap-nav-menu-link {
   font-family: "TT Norms";
@@ -153,6 +163,7 @@ span {
   .wrap-info-left {
     border-right: none;
     text-align: center;
+    padding-right: 0px;
   }
 }
 .wrap-info-right {
@@ -352,6 +363,11 @@ span {
     padding: 0px 60px;
   }
 }
+@media screen and (max-width: 760px) {
+  .successful-cases-padding {
+    padding: 0px;
+  }
+}
 .successful-cases-top-block {
   background-color: #F5F5FA;
 }
@@ -481,6 +497,7 @@ span {
 @media screen and (max-width: 1000px) {
   .successful-cases-p-text {
     padding-left: 20px;
+    margin-bottom: 0px;
   }
 }
 .successful-cases-padding-top-text {
@@ -497,6 +514,11 @@ span {
 .successful-cases-border-right {
   border-right: 5px solid white;
 }
+@media screen and (max-width: 1000px) {
+  .successful-cases-border-right {
+    border-right: none;
+  }
+}
 .successful-cases-height {
   height: 200px;
 }
@@ -506,6 +528,11 @@ span {
 @media screen and (max-width: 1200px) {
   .successful-cases-p-t-l {
     padding-top: 35px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .successful-cases-p-t-l {
+    padding-top: 15px;
   }
 }
 
@@ -668,6 +695,16 @@ span {
     padding-top: 100px;
   }
 }
+@media screen and (max-width: 830px) {
+  .publications-cards-card-4 {
+    padding-top: 150px;
+  }
+}
+@media screen and (max-width: 740px) {
+  .publications-cards-card-4 {
+    padding-top: 200px;
+  }
+}
 .publications-cards-card-5 {
   margin-top: 180px;
   grid-column-start: 2;
@@ -697,6 +734,11 @@ span {
 @media screen and (max-width: 930px) {
   .publications-cards-card-6 {
     padding-top: 220px;
+  }
+}
+@media screen and (max-width: 740px) {
+  .publications-cards-card-6 {
+    padding-top: 280px;
   }
 }
 .publications-card {
@@ -866,6 +908,153 @@ span {
   padding-left: 0px;
 }
 
+#menu__toggle {
+  opacity: 0;
+}
+
+#menu__toggle:checked ~ .menu__btn > span {
+  transform: rotate(45deg);
+}
+
+#menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+
+#menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+
+#menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  left: 0;
+}
+
+.menu__btn {
+  display: none;
+  align-items: center;
+  position: absolute;
+  top: 90px;
+  right: 11%;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #ffffff;
+  transition-duration: 0.25s;
+}
+
+.menu__btn > span::before {
+  content: "";
+  top: -8px;
+}
+
+.menu__btn > span::after {
+  content: "";
+  top: 8px;
+}
+
+.menu__box {
+  display: none;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  left: -100%;
+  z-index: 2;
+  width: 200px;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  background-color: #ECEFF1;
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+  transition-duration: 0.25s;
+}
+
+.menu__item {
+  display: block;
+  padding: 12px 24px;
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  transition-duration: 0.25s;
+}
+
+.menu__item:hover {
+  background-color: #F0145A;
+}
+
+@media screen and (max-width: 1000px) {
+  .adapt-successful-cases {
+    width: 100%;
+    padding-left: 20px;
+  }
+  .border-bottom-adapt {
+    border-bottom: 5px solid #ffffff;
+  }
+}
+@media screen and (max-width: 755px) {
+  .circle-adapt {
+    display: none;
+  }
+  .wrap-adapt {
+    flex-direction: column-reverse;
+  }
+  .adapt-just {
+    justify-content: start !important;
+  }
+  .grey-adapt {
+    color: #B3B3BA;
+  }
+  .adapt-language {
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+  .wrap-nav-logo-name {
+    padding-top: 10px;
+    font-size: 22px;
+    line-height: 20px;
+    margin-bottom: 0px;
+  }
+  .menu {
+    display: none !important;
+  }
+  .menu__btn {
+    display: flex;
+  }
+  .menu__box {
+    display: block;
+  }
+}
+@media screen and (max-width: 706px) {
+  .adapt-carousel {
+    flex-direction: column-reverse;
+  }
+  .adapt-carousel-img {
+    padding-left: 30px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .adapt-card {
+    display: flex;
+    align-items: center;
+  }
+  .wrap-card-title {
+    padding-left: 10px;
+  }
+}
 @font-face {
   font-family: "TT Norms";
   src: url("../fonts/TTNorms-Regular.eot");
