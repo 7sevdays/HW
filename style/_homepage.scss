@@ -47,6 +47,15 @@ span{
       &-padding-left{
         padding-left: 10px
       }
+      &-link{
+        color: white;
+        &:hover{
+          background: $base-color;
+          border-radius: 8px;
+          padding: 5px 6px;
+          color: white;
+        }
+      }
     }
     &-address{
       @include font(400, 16px, 18.88px);
@@ -68,64 +77,82 @@ span{
         padding-left: 15px;
       }
     }
-}
-&-title{
+  }
+  &-title{
   @include font(400, 38px, 44.85px);
   padding-top: 65px;
   padding-right: 50px;
-}
-&-img-p{
+  }
+  &-img-p{
   padding-top: 185px;
   &-padding{
     padding-right: 200px
   }
 
 }
-&-bg-p{
-  background-image: url(../img/bg-p.png);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-&-circle{
-  position: absolute;
-  left: 46%;
-  opacity: 50%;
-}
-&-info{
-  --bs-gutter-x: 0px;
-  padding-top: 80px;
-
-  &-left{
-    padding-right: 40px;
-    text-align: end;
-    border-right: 4px solid #E6E6F0;
-    :hover{
-      cursor: pointer;
-      background-image: $gradient;
-      background-clip: text;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent; 
-    }
-    :last-child{
-      padding-bottom: 0px;
-    }
-    &-text{
-      @include font(700, 42px, 49.57px);
-      color: $grey-color;
-      padding-bottom: 20px;
-      margin-bottom: 0px;
-    }
+  &-bg-p{
+    background-image: url(../img/bg-p.png);
+    background-repeat: no-repeat;
+    background-position: center;
   }
-  &-right{
-    padding-top: 50px;
-    padding-left: 40px;
-    &-title{
-      @include font(400, 32px, 37.77px)
-    }
+  &-circle{
+    z-index: 2;
+    bottom: 0;
+    position: absolute;
+    left: 46%;
+    opacity: 50%;
+  }
+    &-info{
+    --bs-gutter-x: 0px;
+      padding-top: 80px;
+
+      &-left{
+      padding-right: 40px;
+      text-align: end;
+      border-right: 4px solid #E6E6F0;
+      :hover{
+        cursor: pointer;
+        background-image: $gradient;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+      }
+      :last-child{
+        padding-bottom: 0px;
+      }
+      &-text{
+        @include font(700, 42px, 49.57px);
+        color: $grey-color;
+        padding-bottom: 20px;
+        margin-bottom: 0px;
+      }
+      @media screen and (max-width: 1030px) {
+        border-right: none;
+        text-align: center;
+      }
+      }
+      &-right{
+      padding-top: 50px;
+      padding-left: 40px;
+      &-title{
+        @include font(400, 32px, 37.77px);
+        width:580px;
+        @media screen and (max-width: 1082px) {
+          width: auto;
+        }
+      }
     &-desribe{
       padding-top: 20px;
       @include font(400, 21px, 30px)
     }
+    @media screen and (max-width: 1030px) {
+      padding-left: 0;
+    }
+    }
+    @media screen and (max-width: 1030px){
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
     }
   }
   &-p-l-r{
@@ -136,6 +163,10 @@ span{
     @include font(400, 14px, 16.52px);
     margin-top: 80px;
     opacity: 0.5;
+    &-link{
+      width: 120px;
+      display: block;
+    }
   }
   &-describe-service{
     @include font(700, 42px, 49.57px);
@@ -172,6 +203,7 @@ span{
     height: 200px;
     background: linear-gradient(180deg, rgba(50, 50, 100, 0) 16.67%, #323264 100%);
   }
+
 }
 
   .wrap-shadow{
@@ -251,6 +283,9 @@ span{
 .successful-cases{
   &-padding{
     padding: 0px 60px;
+    @media screen and (max-width: 1200px) {
+      padding: 0px;
+    }
   }
   grid-gap: 5px;
   margin: 10px;
@@ -274,6 +309,10 @@ span{
     grid-column-end: 7;
     grid-row-start: 1;
     grid-row-end: 2;
+    @media screen and (max-width: 1200px) {
+      padding-top: 0px;
+    }
+
   }
   &-block-two{
     padding-top: 87px;
@@ -286,6 +325,9 @@ span{
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 2;
+    @media screen and (max-width: 1200px) {
+      padding-top: 0px;
+    }
   }
   &-block-hitel{
     display: flex;
@@ -339,14 +381,23 @@ span{
     text-align: start;
     @include font (400, 24px, 28.32px);
     color: #686887;
+    @media screen and (max-width: 1035px) {
+      padding-left: 0px;
+    }
   }
   &-p-text{
     padding-left: 20px;
     @include font(400, 18px, 26px);
     color: #B3B3BA;
+    @media screen and (max-width: 1035px) {
+      padding-left: 0px;
+    }
   }
   &-padding-top-text{
     padding-top: 48px;
+    @media screen and (max-width: 1200px) {
+      padding-top: 18px;
+    }
   }
   &-padding-left{
     padding-left: 0px!important;
@@ -359,6 +410,9 @@ span{
   }
   &-p-t-l{
     padding-top: 70px;
+    @media screen and (max-width: 1200px) {
+      padding-top: 35px;
+    }
   }
 }
 
@@ -467,6 +521,12 @@ span{
       grid-column-end: 1;
       grid-row-start: 2;
       grid-row-end: 4;
+      @media screen and (max-width: 1100px) {
+        padding-top: 50px;
+      }
+      @media screen and (max-width: 930px) {
+        padding-top: 100px;
+      }
     }
     &-card-5{
       margin-top: 180px;
@@ -474,7 +534,10 @@ span{
       grid-column-end: 2;
       grid-row-start: 3;
       grid-row-end: 4;
-
+      @media screen and (max-width: 1100px) {
+        padding-top: 150px;
+        margin-top: 0px;
+      }
     }
     &-card-6{
       margin-top: 210px;
@@ -482,7 +545,13 @@ span{
       grid-column-end: 3;
       grid-row-start: 4;
       grid-row-end: 4;
-
+      @media screen and (max-width: 1100px) {
+        padding-top: 160px;
+        margin-top: 0px;
+      }
+      @media screen and (max-width: 930px) {
+        padding-top: 220px;
+      }
     }
   }
   &-card{
@@ -623,4 +692,8 @@ span{
   height: 5px;
   background-color: white;
   z-index: 2;
+}
+
+.padding-left{
+  padding-left: 0px;
 }
