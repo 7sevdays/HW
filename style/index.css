@@ -1303,6 +1303,12 @@ span {
     padding-top: 40px;
   }
 }
+@media screen and (max-width: 850px) {
+  .nav-pills .active {
+    opacity: 1;
+    background-color: #24A3FF !important;
+  }
+}
 @media screen and (max-width: 736px) {
   .adapt-circle {
     margin-top: 350px;
@@ -1352,11 +1358,6 @@ span {
 .border-right {
   border-radius: 0px;
   padding: 0px;
-}
-
-.nav-pills .active {
-  opacity: 1;
-  background-color: #24A3FF !important;
 }
 
 @font-face {
