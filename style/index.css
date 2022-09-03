@@ -93,6 +93,9 @@ span {
   line-height: 18.88px;
   padding-right: 11px;
 }
+.wrap-nav-number:hover {
+  color: #F0145A;
+}
 .wrap-nav-facebook {
   padding-left: 10px;
 }
@@ -106,6 +109,7 @@ span {
   font-weight: 400;
   font-size: 15px;
   line-height: 21.24px;
+  font-weight: 600;
   padding-left: 15px;
 }
 .wrap-nav-menu-link:hover {
@@ -1079,6 +1083,10 @@ span {
     border-bottom: 5px solid #ffffff;
   }
 }
+.grey-adapt:hover {
+  color: #F0145A;
+}
+
 @media screen and (max-width: 755px) {
   .circle-adapt {
     display: none;
@@ -1359,6 +1367,61 @@ span {
 .border-right {
   border-radius: 0px;
   padding: 0px;
+}
+
+.color-grey {
+  color: #B3B3BA;
+}
+
+.background-color-grey {
+  background-color: #B3B3BA;
+}
+
+.color-blue {
+  color: #24A3FF;
+}
+
+.color-black {
+  color: black;
+}
+
+.background-color-black {
+  background-color: black !important;
+}
+
+.color-legals {
+  color: #323264;
+}
+
+.link-menu:active {
+  color: #F0145A;
+}
+
+.active {
+  color: #F0145A;
+  text-decoration: underline !important;
+}
+
+.width-auto {
+  width: auto;
+}
+
+.nav-about-ua {
+  font-family: "TT Norms";
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 45px;
+}
+
+.menu__btn > .background-color-black,
+.menu__btn > .background-color-black::before,
+.menu__btn > .background-color-black::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #000000;
+  transition-duration: 0.25s;
 }
 
 @font-face {

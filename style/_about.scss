@@ -1,0 +1,58 @@
+// Цвета
+
+.color-grey{
+  color: #B3B3BA;
+}
+
+.background-color-grey{
+  background-color: #B3B3BA;
+}
+
+.color-blue{
+  color: #24A3FF;
+}
+
+.color-black{
+  color: black;
+}
+
+.background-color-black{
+  background-color: black!important;
+
+}
+
+.color-legals{
+  color: #323264;;
+}
+
+.link-menu:active{
+  color: #F0145A;
+}
+
+.active{
+  color: #F0145A;
+  text-decoration: underline!important;
+}
+// Конец 
+
+
+.width-auto{
+  width: auto;
+}
+
+.nav-about-ua{
+  @include font(400, 25px, 45px);
+
+}
+
+
+.menu__btn > .background-color-black,
+.menu__btn > .background-color-black::before,
+.menu__btn > .background-color-black::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #000000;
+  transition-duration: 0.25s;
+}

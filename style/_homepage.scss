@@ -73,6 +73,9 @@ span{
     &-number{
       @include font(700, 16px, 18.88px);
       padding-right: 11px;
+      &:hover{
+        color: $base-color;
+      }
     }
     &-facebook{
       padding-left: 10px;
@@ -83,6 +86,7 @@ span{
     &-menu{
       &-link{
         @include font(400, 15px, 21.24px);
+        font-weight: 600;
         padding-left: 15px;
         &:hover{
           color: $base-color;
@@ -779,6 +783,7 @@ span{
     @include font(700, 16px, 18.88px);
     color: #46466E;
 
+
   }
   &-second-rows-grid{
     grid-template-columns: 50px 200px 200px 1fr;
@@ -887,6 +892,7 @@ span{
 }
 .menu__item:hover {
   background-color: $base-color;
+
 }
 
 // Adapt
@@ -899,6 +905,10 @@ span{
   .border-bottom-adapt{
     border-bottom: 5px solid #ffffff;
 }
+}
+
+.grey-adapt:hover{
+  color: $base-color;
 }
 
 
