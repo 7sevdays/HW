@@ -1673,6 +1673,40 @@ span {
     display: block;
   }
 }
+.width-team-title {
+  width: 864px;
+  margin: auto;
+}
+@media screen and (max-width: 880px) {
+  .width-team-title {
+    width: auto;
+    padding: 0px 20px;
+    text-align: center;
+  }
+}
+
+.team-block {
+  padding: 80px 60px;
+}
+.team-block-name {
+  font-family: "TT Norms";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #323264;
+  padding-top: 20px;
+}
+.team-block-sub {
+  font-family: "TT Norms";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #B3B3BA;
+}
+.team-block-flex-direction {
+  flex-direction: column-reverse;
+}
+
 @font-face {
   font-family: "TT Norms";
   src: url("../fonts/TTNorms-Regular.eot");
