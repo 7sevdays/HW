@@ -16,6 +16,9 @@
   color: black;
 }
 
+.background-color-carousel{
+  background-color: #F5F5FA;
+}
 .background-color-black{
   background-color: black!important;
 
@@ -31,7 +34,6 @@
 
 .active{
   color: #F0145A;
-  text-decoration: underline!important;
 }
 // Конец 
 
@@ -40,13 +42,14 @@
   width: auto;
 }
 
-
+.under-about{
+  text-decoration: underline!important;
+}
 
 .nav-about-ua{
   @include font(400, 25px, 45px);
 
 }
-
 // Бургер
 
 .menu__btn > .background-color-black,
@@ -66,12 +69,18 @@
 .legal-services{
   &-padding-right{
     padding-right: 40px;
+    @media screen and (max-width:980px) {
+      padding-right: 0px;
+    }
   }
   padding: 102px 174px 100px 172px;
   &-sub-text{
     @include font(400, 21px, 30px );
     color: black;
     width: 600px;
+    @media screen and (max-width:980px) {
+      width: auto;
+    }
   }
   &-advant-title{
     @include font(600, 36px, 42px);
@@ -84,9 +93,26 @@
   &-block{
     border-left: 4px solid #E6E6F0;
     padding-left: 21px;
+    @media screen and (max-width:978px) {
+      border-top: 4px solid #E6E6F0;
+      border-left: none;
+    }
+    @media screen and (max-width:600px) {
+      padding-left: 0px;
+    }
   }
   &-padding-top{
     padding-top: 40px;
+  }
+  @media screen and (max-width:1152px) {
+    padding: 61px 87px 50px 86px;
+  }
+  @media screen and (max-width:980px) {
+    padding: 31px 57px 10px 36px;
+  }
+  @media screen and (max-width:980px) {
+    flex-direction: column;
+    padding: 20px;
   }
 }
 
@@ -97,7 +123,13 @@
   background-repeat: no-repeat;
   height: 438px;
   background-size: cover;
+  background-blend-mode: screen, normal;
+  @media screen and (max-width:600px) {
+    height: 290px;
+  }
 }
+
+
 
 .team-title{
   @include font(800, 96px, 113px);
@@ -109,6 +141,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  @media screen and (max-width:1000px) {
+    font-size: 63px;
+    letter-spacing: 33px;
+  }
+  @media screen and (max-width:603px) {
+    font-size: 49px;
+    letter-spacing: 28px;
+    height: 290px;
+  }
+  @media screen and (max-width:603px) {
+    font-size: 35px;
+    letter-spacing: 20px;
+  }
 }
 
 .gradient-text-about{
@@ -116,4 +161,120 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+// Карусель
+
+.achievement{
+  &-title-text{
+    @include font(800, 14px, 17px);
+    text-align: center;
+    padding-top: 28px;
+    text-transform: uppercase;
+  }
+  &-block{
+    background-color: white;
+
+  }
+  &-img-1{
+    height: 109px;
+    background-image: url(../img/legal-500.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  &-img-2{
+    height: 109px;
+    background-image: url(../img/legal-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  &-img-3{
+    height: 109px;
+    background-image: url(../img/leader-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  &-img-4{
+    height: 109px;
+    background-image: url(../img/ulf-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  &-margin-bottom{
+    margin-bottom: 62px;
+  }
+  &-padding-block{
+    padding-left: 60px;
+    padding-right: 60px;
+    @media screen and (max-width: 580px) {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  }
+  &-padding-footer{
+    padding-top: 0px;
+  }
+}
+
+.margin{
+  margin: auto;
+}
+.margin-bottom-carousel{
+  margin-bottom: 30px;
+}
+
+.carousel-indicators-bottom{
+  bottom: 0px;
+}
+
+@media screen and(max-width: 966px) {
+  .adapt-menu-about{
+    flex-direction: column-reverse;
+  }
+}
+  @media screen and(max-width: 760px) {
+
+  .adapt-adress-about, .adapt-facebook-about, .adapt-number-about{
+    display: none;
+  }
+  .adapt-about-us{
+    justify-content: space-between;
+    padding-bottom: 16px;
+  }
+  .adapt-legals-about{
+    font-size: 45px;
+    padding-bottom: 8px;
+  }
+  .nav-about-ua{
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  .adapt-about-us-vektor{
+    height: 35px;
+  }
+}
+
+@media screen and(max-width: 400px) {
+  .adapt-legals-about{
+    font-size: 29px;
+    padding-bottom: 4px;
+  }
+  .adapt-company-about{
+    font-size: 10px;
+  }
+}
+
+.adapt-new-carosel{
+  display: none;
+}
+
+
+@media screen and (max-width: 995px) {
+.adapt-carousel-active{
+  display: none;
+}
+.adapt-new-carosel{
+  display: block;
+}
 }

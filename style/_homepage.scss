@@ -146,13 +146,15 @@ span{
       &-title{
         @include font(400, 32px, 37.77px);
         width:580px;
+        color: white;
         @media screen and (max-width: 1082px) {
           width: auto;
         }
       }
     &-desribe{
       padding-top: 20px;
-      @include font(400, 21px, 30px)
+      @include font(400, 21px, 30px);
+      color: white;
     }
     @media screen and (max-width: 1030px) {
       padding-left: 0;

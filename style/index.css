@@ -176,6 +176,7 @@ span {
   font-size: 32px;
   line-height: 37.77px;
   width: 580px;
+  color: white;
 }
 @media screen and (max-width: 1082px) {
   .wrap-info-right-title {
@@ -188,6 +189,7 @@ span {
   font-weight: 400;
   font-size: 21px;
   line-height: 30px;
+  color: white;
 }
 @media screen and (max-width: 1030px) {
   .wrap-info-right {
@@ -1385,6 +1387,10 @@ span {
   color: black;
 }
 
+.background-color-carousel {
+  background-color: #F5F5FA;
+}
+
 .background-color-black {
   background-color: black !important;
 }
@@ -1399,11 +1405,14 @@ span {
 
 .active {
   color: #F0145A;
-  text-decoration: underline !important;
 }
 
 .width-auto {
   width: auto;
+}
+
+.under-about {
+  text-decoration: underline !important;
 }
 
 .nav-about-ua {
@@ -1430,6 +1439,11 @@ span {
 .legal-services-padding-right {
   padding-right: 40px;
 }
+@media screen and (max-width: 980px) {
+  .legal-services-padding-right {
+    padding-right: 0px;
+  }
+}
 .legal-services-sub-text {
   font-family: "TT Norms";
   font-weight: 400;
@@ -1437,6 +1451,11 @@ span {
   line-height: 30px;
   color: black;
   width: 600px;
+}
+@media screen and (max-width: 980px) {
+  .legal-services-sub-text {
+    width: auto;
+  }
 }
 .legal-services-advant-title {
   font-family: "TT Norms";
@@ -1456,8 +1475,35 @@ span {
   border-left: 4px solid #E6E6F0;
   padding-left: 21px;
 }
+@media screen and (max-width: 978px) {
+  .legal-services-block {
+    border-top: 4px solid #E6E6F0;
+    border-left: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .legal-services-block {
+    padding-left: 0px;
+  }
+}
 .legal-services-padding-top {
   padding-top: 40px;
+}
+@media screen and (max-width: 1152px) {
+  .legal-services {
+    padding: 61px 87px 50px 86px;
+  }
+}
+@media screen and (max-width: 980px) {
+  .legal-services {
+    padding: 31px 57px 10px 36px;
+  }
+}
+@media screen and (max-width: 980px) {
+  .legal-services {
+    flex-direction: column;
+    padding: 20px;
+  }
 }
 
 .team-background-img {
@@ -1467,6 +1513,12 @@ span {
   background-repeat: no-repeat;
   height: 438px;
   background-size: cover;
+  background-blend-mode: screen, normal;
+}
+@media screen and (max-width: 600px) {
+  .team-background-img {
+    height: 290px;
+  }
 }
 
 .team-title {
@@ -1483,6 +1535,25 @@ span {
   justify-content: center;
   align-items: center;
 }
+@media screen and (max-width: 1000px) {
+  .team-title {
+    font-size: 63px;
+    letter-spacing: 33px;
+  }
+}
+@media screen and (max-width: 603px) {
+  .team-title {
+    font-size: 49px;
+    letter-spacing: 28px;
+    height: 290px;
+  }
+}
+@media screen and (max-width: 603px) {
+  .team-title {
+    font-size: 35px;
+    letter-spacing: 20px;
+  }
+}
 
 .gradient-text-about {
   background-image: linear-gradient(280.13deg, #EF8080 0.84%, #F0145A 99.96%);
@@ -1491,6 +1562,117 @@ span {
   -webkit-text-fill-color: transparent;
 }
 
+.achievement-title-text {
+  font-family: "TT Norms";
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  padding-top: 28px;
+  text-transform: uppercase;
+}
+.achievement-block {
+  background-color: white;
+}
+.achievement-img-1 {
+  height: 109px;
+  background-image: url(../img/legal-500.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.achievement-img-2 {
+  height: 109px;
+  background-image: url(../img/legal-img.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.achievement-img-3 {
+  height: 109px;
+  background-image: url(../img/leader-img.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.achievement-img-4 {
+  height: 109px;
+  background-image: url(../img/ulf-img.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.achievement-margin-bottom {
+  margin-bottom: 62px;
+}
+.achievement-padding-block {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+@media screen and (max-width: 580px) {
+  .achievement-padding-block {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+.achievement-padding-footer {
+  padding-top: 0px;
+}
+
+.margin {
+  margin: auto;
+}
+
+.margin-bottom-carousel {
+  margin-bottom: 30px;
+}
+
+.carousel-indicators-bottom {
+  bottom: 0px;
+}
+
+@media screen and (max-width: 966px) {
+  .adapt-menu-about {
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 760px) {
+  .adapt-adress-about, .adapt-facebook-about, .adapt-number-about {
+    display: none;
+  }
+  .adapt-about-us {
+    justify-content: space-between;
+    padding-bottom: 16px;
+  }
+  .adapt-legals-about {
+    font-size: 45px;
+    padding-bottom: 8px;
+  }
+  .nav-about-ua {
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .adapt-about-us-vektor {
+    height: 35px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .adapt-legals-about {
+    font-size: 29px;
+    padding-bottom: 4px;
+  }
+  .adapt-company-about {
+    font-size: 10px;
+  }
+}
+.adapt-new-carosel {
+  display: none;
+}
+
+@media screen and (max-width: 995px) {
+  .adapt-carousel-active {
+    display: none;
+  }
+  .adapt-new-carosel {
+    display: block;
+  }
+}
 @font-face {
   font-family: "TT Norms";
   src: url("../fonts/TTNorms-Regular.eot");
