@@ -1432,7 +1432,7 @@ span {
 }
 .legal-services-sub-text {
   font-family: "TT Norms";
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 21px;
   line-height: 30px;
   color: black;
@@ -1484,7 +1484,7 @@ span {
   align-items: center;
 }
 
-.gradient {
+.gradient-text-about {
   background-image: linear-gradient(280.13deg, #EF8080 0.84%, #F0145A 99.96%);
   background-clip: text;
   -webkit-background-clip: text;
