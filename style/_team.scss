@@ -19,7 +19,32 @@
     @include font(400, 16px, 22px);
     color: $grey-color;
   }
-  &-flex-direction{
+
+}
+
+@media screen and (max-width: 764px) {
+  .team-block-flex-direction{
     flex-direction: column-reverse;
   }
+}
+
+
+@media screen and (max-width: 500px) {
+.adapt-momible-team-img{
+  width: 50%!important;
+}
+.adapt-momible-team{
+  display: flex;
+  padding-bottom: 20px;
+}
+.team-block{
+  padding: 0px;
+  margin-top: 20px;
+}
+.adapt-momible-text{
+  flex-direction: column;
+  justify-content: end!important;
+  align-items: normal!important;
+  padding-left: 20px;
+}
 }
