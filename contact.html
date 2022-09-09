@@ -25,9 +25,9 @@
           <ul class="menu__box">
             <li class="link-menu"><a class="menu__item color-blue" href="./about.html">О НАС</a></li>
             <li class="link-menu"><a class="menu__item color-blue" href="#">ПОСЛУГИ</a></li>
-            <li class="link-menu"><a class="menu__item color-blue active under-about" href="./team.html">КОМАНДА</a></li>
+            <li class="link-menu"><a class="menu__item color-blue " href="./team.html">КОМАНДА</a></li>
             <li class="link-menu"><a class="menu__item color-blue" href="#">ПУБЛІКАЦІЇ</a></li>
-            <li class="link-menu"><a class="menu__item color-blue" href="#">КОНТАКТИ</a></li>
+            <li class="link-menu"><a class="menu__item color-blue active under-about" href="#">КОНТАКТИ</a></li>
           </ul>
           </div>
         </div>
@@ -85,7 +85,7 @@
 </div>
   <main class="cantact-block">
     <div class="row">
-      <div class="col-5">
+      <div class="col-12 col-xxl-5 col-xl-5 col-lg-5 col-md-5">
         <p class="cantact-block-adress">Одеса, <br> Адміральський пр., 3</p>
       <div class="cantact-block-block-adr-num ">
         <p class="cantact-block-number">	+38 (050) 390 15 95</p>
@@ -98,13 +98,21 @@
        </a>
       </div>
     </div>
-      <div class="col-7">
+      <div class="col-12 col-xxl-7 col-xl-7 col-lg-7 col-md-7 adapt-form">
         <div class="cantact-block-form-block">
-          <form action="#">
+          <form id="form-contact" action="#">
             <h3 class="cantact-block-form-title">Ми хотіли б Вам допомогти</h3>
-          </form>
-        </div>
+            <input class="cantact-block-form-input" type="text" placeholder="Iм’я">
+            <textarea  form="form-contact" name="text" class="cantact-block-height  cantact-block-form-input cantact-block-margin" placeholder="Повідомлення"></textarea>
+            <h3 class="cantact-block-title-form-answer ">Як вам відповісти?</h3>
+            <input class="cantact-block-form-input cantact-block-margin" type="number" placeholder="Номер телефона">
+            <input class="cantact-block-form-input cantact-block-margin cantact-block-margin-bot" type="email" placeholder="Чи email">
+            <input class="d-flex cantact-block-button cantact-block-margin" type="submit" value="Надіслати запит">
+          </div>
       </div>
+    </div>
+    <div class="">
+      
     </div>
   </main>
   <footer class="footer achievement-padding-footer">

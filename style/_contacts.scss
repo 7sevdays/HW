@@ -35,5 +35,83 @@
   }
   &-form-block{
     background-color: $bg-grey-color;
+
   }
+  &-form-input{
+    background: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+    width: 90%;
+    height: 47px;
+    display: flex;
+    margin: auto;
+    color: #B3B3BA;
+    padding-left: 10px;
+  }
+  ::placeholder {
+    color: #B3B3BA;
+    padding-top: 10px;
+  }
+  &-margin{
+    margin-top: 20px;
+  }
+  &-margin-bot{
+    margin-bottom: 20px;
+  }
+  &-height{
+    height: 180px;
+  }
+  &-title-form-answer{
+    @include font(600, 14px, 17px);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #B3B3BA;
+    padding-top: 20px;
+    padding-left: 35px;
+  }
+  &-button{
+    background: #24A3FF;
+    box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+    border-radius: 12px;
+    border: none;
+    padding: 17px 80px;
+    margin: auto;
+    color: white;
+  }
+  @media screen and (max-width:1400px) {
+    padding: 350px 72px 80px 72px;
+  }
+  @media screen and (max-width:1050px) {
+    padding: 350px 20px 80px 20px;
+  }
+  @media screen and (max-width:763px) {
+    #form-contact{
+      margin-top: 40px;
+    }
+    padding: 230px 20px 80px 20px;
+  }
+  @media screen and (max-width:525px) {
+    #form-contact{
+      margin-top: 40px;
+    }
+      padding-left: 0px;
+      padding-right: 0px;
+    .adapt-form{
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    .cantact-block-form-title{
+      font-size: 28px;
+    }
+  }
+  @media screen and (max-width:412px) {
+    .cantact-block-form-title{
+      font-size: 18px;
+      line-height: 14px;
+    }
+  }
+}
+
+#form-contact{
+  padding-bottom: 20px;
 }
