@@ -18,7 +18,9 @@ span{
   background: #E6E6F0;
   border-radius: 50%;
 }
-
+.p-t-c{
+  padding-top: 200px;
+}
 .row{
   margin-right: 0px;
   margin-left: 0px;
@@ -34,6 +36,11 @@ span{
   border-radius: 0 0 12px 12px;
    &-nav{
     padding: 50px 60px 63px 60px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    opacity: 0.9;
+    background: linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
     &-logo{
       width: 155px;
       height: 46.73px;
@@ -53,9 +60,6 @@ span{
       &-link{
         color: white;
         &:hover{
-          background: $base-color;
-          border-radius: 8px;
-          padding: 5px 6px;
           color: white;
         }
       }
@@ -228,7 +232,12 @@ span{
   }
 }
   .border-right-block{
-    border-right: 4px solid white;
+    border-right: 4px solid rgb(255, 255, 255)!important;
+    border-radius: 0!important;
+  }
+
+  .nav > .active{
+     border-right: 4px solid #F0145A!important;
   }
   .wrap-shadow{
     margin: auto;
@@ -1204,11 +1213,6 @@ span{
   -webkit-text-fill-color: transparent; 
 }
 
-.border-right:focus{
-  border-right: 4px solid #F0145A;
-  margin-right: -4px;
-  border-radius: 0px;
-}
 
 .border-right{
   border-radius: 0px;

@@ -19,6 +19,10 @@ span {
   border-radius: 50%;
 }
 
+.p-t-c {
+  padding-top: 200px;
+}
+
 .row {
   margin-right: 0px;
   margin-left: 0px;
@@ -38,6 +42,11 @@ span {
 }
 .wrap-nav {
   padding: 50px 60px 63px 60px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  opacity: 0.9;
+  background: linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
 }
 .wrap-nav-logo {
   width: 155px;
@@ -66,9 +75,6 @@ span {
   color: white;
 }
 .wrap-nav-language-link:hover {
-  background: #F0145A;
-  border-radius: 8px;
-  padding: 5px 6px;
   color: white;
 }
 .wrap-nav-address {
@@ -278,7 +284,12 @@ span {
 }
 
 .border-right-block {
-  border-right: 4px solid white;
+  border-right: 4px solid rgb(255, 255, 255) !important;
+  border-radius: 0 !important;
+}
+
+.nav > .active {
+  border-right: 4px solid #F0145A !important;
 }
 
 .wrap-shadow {
@@ -1360,12 +1371,6 @@ span {
   -webkit-text-fill-color: transparent;
 }
 
-.border-right:focus {
-  border-right: 4px solid #F0145A;
-  margin-right: -4px;
-  border-radius: 0px;
-}
-
 .border-right {
   border-radius: 0px;
   padding: 0px;
@@ -1403,8 +1408,11 @@ span {
   color: #F0145A;
 }
 
-.active {
-  color: #F0145A;
+.wrap-nav-language > .active {
+  background-color: #F0145A;
+  padding: 5px;
+  border-radius: 8px;
+  color: white;
 }
 
 .width-auto {
@@ -1413,6 +1421,7 @@ span {
 
 .under-about {
   text-decoration: underline !important;
+  color: #F0145A;
 }
 
 .nav-about-ua {
@@ -1434,7 +1443,7 @@ span {
 }
 
 .legal-services {
-  padding: 102px 174px 100px 172px;
+  padding: 252px 174px 100px 172px;
 }
 .legal-services-padding-right {
   padding-right: 40px;
@@ -1491,7 +1500,7 @@ span {
 }
 @media screen and (max-width: 1152px) {
   .legal-services {
-    padding: 61px 87px 50px 86px;
+    padding: 200px 87px 50px 86px;
   }
 }
 @media screen and (max-width: 980px) {
@@ -1502,8 +1511,22 @@ span {
 @media screen and (max-width: 980px) {
   .legal-services {
     flex-direction: column;
-    padding: 20px;
+    padding: 240px 20px 20px 20px;
   }
+}
+
+@media screen and (max-width: 1152px) {
+  .p-a-about {
+    padding-top: 80px;
+  }
+}
+@media screen and (max-width: 1920px) {
+  .p-a-about {
+    padding-top: 80px;
+  }
+}
+.background-about-nav {
+  background: rgb(246, 246, 246);
 }
 
 .team-background-img {
@@ -1676,12 +1699,14 @@ span {
 .width-team-title {
   width: 864px;
   margin: auto;
+  padding-top: 200px;
 }
 @media screen and (max-width: 880px) {
   .width-team-title {
     width: auto;
     padding: 0px 20px;
     text-align: center;
+    padding-top: 200px;
   }
 }
 
@@ -1726,6 +1751,99 @@ span {
     justify-content: end !important;
     align-items: normal !important;
     padding-left: 20px;
+  }
+}
+.p-b-a-u {
+  padding: 320px 172px 80px 172px;
+}
+
+.block-user-link {
+  color: #24A3FF;
+}
+
+.p-l-a-u {
+  padding-left: 30px;
+}
+
+.p-r-a-u {
+  margin-right: 10px;
+}
+
+.b-b-a-u {
+  border-bottom: 4px solid #E6E6F0;
+}
+
+.p-l-a-u-b {
+  padding-left: 40px;
+}
+
+.describe-text-about-user {
+  font-family: "TT Norms";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: black;
+}
+
+.describe-title-text-about-user {
+  font-family: "TT Norms";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #323264;
+  text-transform: uppercase;
+}
+
+.p-t-a-u {
+  padding-top: 40px;
+}
+
+@media screen and (max-width: 1400px) {
+  .p-b-a-u {
+    padding: 320px 90px 80px 90px;
+  }
+}
+@media screen and (max-width: 1110px) {
+  .adapt-a-u-i {
+    display: flex;
+    align-items: center;
+  }
+  .p-l-a-u {
+    padding-left: 15px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .p-b-a-u {
+    flex-direction: column;
+    align-items: center;
+  }
+  .p-l-a-u-b {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .adapt-a-u-i {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .adapt-a-u-i {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 607px) {
+  .p-l-a-u {
+    padding-left: 0px;
+  }
+  .b-b-a-u {
+    flex-direction: column;
+  }
+  .p-b-a-u {
+    padding: 320px 40px 80px 40px;
+  }
+}
+@media screen and (max-width: 410px) {
+  .p-b-a-u {
+    padding: 214px 20px 40px 20px;
   }
 }
 @font-face {

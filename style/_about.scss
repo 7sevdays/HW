@@ -32,8 +32,12 @@
   color: #F0145A;
 }
 
-.active{
-  color: #F0145A;
+.wrap-nav-language >.active{
+  background-color: #F0145A;
+  padding: 5px;
+  border-radius: 8px;
+  color: white;
+
 }
 // Конец 
 
@@ -44,6 +48,7 @@
 
 .under-about{
   text-decoration: underline!important;
+  color: $base-color;
 }
 
 .nav-about-ua{
@@ -73,7 +78,7 @@
       padding-right: 0px;
     }
   }
-  padding: 102px 174px 100px 172px;
+  padding: 252px 174px 100px 172px;
   &-sub-text{
     @include font(400, 21px, 30px );
     color: black;
@@ -105,15 +110,31 @@
     padding-top: 40px;
   }
   @media screen and (max-width:1152px) {
-    padding: 61px 87px 50px 86px;
+    padding: 200px 87px 50px 86px;
   }
   @media screen and (max-width:980px) {
     padding: 31px 57px 10px 36px;
   }
   @media screen and (max-width:980px) {
     flex-direction: column;
-    padding: 20px;
+    padding: 240px 20px 20px 20px;
   }
+}
+
+@media screen and (max-width:1152px) {
+  .p-a-about{
+    padding-top: 80px;
+  }
+}
+
+@media screen and (max-width:1920px) {
+  .p-a-about{
+    padding-top: 80px;
+  }
+}
+
+.background-about-nav{
+  background: rgb(246, 246, 246);
 }
 
 .team-background-img{
