@@ -75,7 +75,7 @@ span {
   color: white;
 }
 .wrap-nav-language-link:hover {
-  color: white;
+  color: #F0145A;
 }
 .wrap-nav-address {
   font-family: "TT Norms";
@@ -2156,6 +2156,12 @@ span {
     border-radius: 0px;
   }
 }
+.publications {
+  padding-top: 300px;
+  border-radius: 12px 12px 0px 0px;
+  background-color: #F5F5FA;
+}
+
 @font-face {
   font-family: "TT Norms";
   src: url("../fonts/TTNorms-Regular.eot");
