@@ -70,6 +70,7 @@
   }
   &-button{
     margin-bottom: 80px;
+    padding: 17px 30px;
   }
   &-background-none{
     background: none;
@@ -122,8 +123,45 @@
   .services-product-derection{
     flex-direction: column;
   }
-  .services-product-button{
-    width: 80%;
-    padding: 17px 50px;
+
+}
+
+.modal-content{
+  background-color: $bg-grey-color;
+}
+.modal-footer{
+  border-top: none;
+  padding-bottom: 20px;
+}
+
+.btn-close{
+  opacity: 1;
+  background-image: url(../img/cross.svg);
+}
+
+.modal{
+  background-color: #323264;
+}
+.modal-title{
+  font-family: "TT Norms";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  background-image: linear-gradient(280.13deg, #EF8080 0.84%, #F0145A 99.96%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+@media screen and (max-width:500px) {
+  .modal-dialog-centered{
+    align-items: stretch;
+    min-height: 100%;
+    margin: 0px;
+  }
+  .modal-content{
+    border: none;
+    border-radius: 0px;
   }
 }

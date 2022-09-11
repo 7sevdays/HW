@@ -98,9 +98,34 @@
            для штатного юриста. А ще ми добре знаємо, як важко в Україні
           знайти хорошого кандидата з досвідом у сфері інформаційних
           технологій.</p>
-          <a href="#">
-            <input class="services-product-button d-flex cantact-block-button cantact-block-margin" type="submit" value="Безкоштовна консультація">
-           </a>
+            <!-- Button trigger modal -->
+            <button type="button" class="services-product-button  d-flex cantact-block-button cantact-block-margin" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Безкоштовна консультація
+            </button>
+
+            <!-- Modal -->
+            <form action="#">
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title modal-title services-product-title-text" id="exampleModalLabel">Ми хотіли б Вам допомогти</h5>
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <input class="cantact-block-form-input" type="text" placeholder="Iм’я">
+                      <textarea  name="text" class="cantact-block-height  cantact-block-form-input cantact-block-margin" placeholder="Повідомлення"></textarea>
+                      <h3 class="cantact-block-title-form-answer ">Як вам відповісти?</h3>
+                      <input class="cantact-block-form-input cantact-block-margin" type="number" placeholder="Номер телефона">
+                      <input class="cantact-block-form-input cantact-block-margin" type="email" placeholder="Чи email">
+                    </div>
+                    <div class="modal-footer">
+                      <input class="d-flex cantact-block-button cantact-block-margin" type="submit" value="Надіслати запит">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
           </div>
        </div>
      </div>
