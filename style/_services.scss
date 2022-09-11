@@ -1,0 +1,129 @@
+
+.under-white{
+  border-bottom: 2px solid white;
+}
+
+
+.wrap-nav-menu-link-services{
+  font-family: "TT Norms";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21.24px;
+  font-weight: 600;
+  margin-left: 15px;
+}
+
+.padding-top-adapt{
+  padding-top: 300px;
+}
+
+.padding-left-services{
+  padding-left: 60px;
+  padding-right: 60px;
+  @media screen and(max-width:415px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.footer-services{
+  padding: 00px 60px 0px 60px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: #F5F5FA;
+}
+
+.border-top{
+  border-top: none;
+}
+
+
+.gradient-services {
+  background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%);
+}
+
+
+// Services-product
+
+.services-product{
+  &-background-img{
+    background-image: url(../img/background-services.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  &-title-text{
+    text-align: center;
+    padding-top: 20px
+  }
+  &-describe-text{
+    @include font(400, 21px, 30px);
+    text-align: center;
+    width: 861px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  &-img{
+    display: flex;
+    margin: auto;
+  }
+  &-button{
+    margin-bottom: 80px;
+  }
+  &-background-none{
+    background: none;
+  }
+  &-padding-top-own-block{
+    padding-top: 200px;
+  }
+  &-border-top{
+    border-top: 4px solid #FFFFFF;
+    opacity: 0.5;
+  }
+  &-block-direction-services{
+    padding: 0px 172px;
+  }
+  &-derection{
+    padding-top: 20px;
+    padding-bottom: 80px;
+  }
+  &-title-direction{
+    @include font(600, 24px, 29px);
+    padding-top: 20px;
+  }
+  &-describe-direction{
+    @include font(400, 18px, 26px);
+    color: white;
+    padding-left: 10px;
+    
+  }
+  &-background-circle{
+    background-color: $base-color;
+    margin-right: 10px;
+  }
+}
+
+
+@media screen and (max-width:950px) {
+  .adapt-padding-direction{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .services-product-describe-text{
+    width: auto;
+  }
+  .services-product-block-direction-services{
+    padding: 20px 45px;
+  }
+}
+
+@media screen and (max-width:660px) {
+  .services-product-derection{
+    flex-direction: column;
+  }
+  .services-product-button{
+    width: 80%;
+    padding: 17px 50px;
+  }
+}

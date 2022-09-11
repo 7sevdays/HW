@@ -1380,50 +1380,6 @@ span {
   color: white;
 }
 
-.under-white {
-  border-bottom: 2px solid white;
-}
-
-.wrap-nav-menu-link-services {
-  font-family: "TT Norms";
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 21.24px;
-  font-weight: 600;
-  margin-left: 15px;
-}
-
-.padding-top-adapt {
-  padding-top: 300px;
-}
-
-.padding-left-services {
-  padding-left: 60px;
-  padding-right: 60px;
-}
-@media screen and (max-width: 415px) {
-  .padding-left-services {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-}
-
-.footer-services {
-  padding: 0px 60px 0px 60px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  background-color: #F5F5FA;
-}
-
-.border-top {
-  border-top: none;
-}
-
-.gradient-services {
-  background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%);
-}
-
 .color-grey {
   color: #B3B3BA;
 }
@@ -2034,6 +1990,135 @@ span {
   padding-bottom: 20px;
 }
 
+.under-white {
+  border-bottom: 2px solid white;
+}
+
+.wrap-nav-menu-link-services {
+  font-family: "TT Norms";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21.24px;
+  font-weight: 600;
+  margin-left: 15px;
+}
+
+.padding-top-adapt {
+  padding-top: 300px;
+}
+
+.padding-left-services {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+@media screen and (max-width: 415px) {
+  .padding-left-services {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.footer-services {
+  padding: 0px 60px 0px 60px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: #F5F5FA;
+}
+
+.border-top {
+  border-top: none;
+}
+
+.gradient-services {
+  background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%);
+}
+
+.services-product-background-img {
+  background-image: url(../img/background-services.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.services-product-title-text {
+  text-align: center;
+  padding-top: 20px;
+}
+.services-product-describe-text {
+  font-family: "TT Norms";
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+  text-align: center;
+  width: 861px;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.services-product-img {
+  display: flex;
+  margin: auto;
+}
+.services-product-button {
+  margin-bottom: 80px;
+}
+.services-product-background-none {
+  background: none;
+}
+.services-product-padding-top-own-block {
+  padding-top: 200px;
+}
+.services-product-border-top {
+  border-top: 4px solid #FFFFFF;
+  opacity: 0.5;
+}
+.services-product-block-direction-services {
+  padding: 0px 172px;
+}
+.services-product-derection {
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+.services-product-title-direction {
+  font-family: "TT Norms";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  padding-top: 20px;
+}
+.services-product-describe-direction {
+  font-family: "TT Norms";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: white;
+  padding-left: 10px;
+}
+.services-product-background-circle {
+  background-color: #F0145A;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 950px) {
+  .adapt-padding-direction {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .services-product-describe-text {
+    width: auto;
+  }
+  .services-product-block-direction-services {
+    padding: 20px 45px;
+  }
+}
+@media screen and (max-width: 660px) {
+  .services-product-derection {
+    flex-direction: column;
+  }
+  .services-product-button {
+    width: 80%;
+    padding: 17px 50px;
+  }
+}
 @font-face {
   font-family: "TT Norms";
   src: url("../fonts/TTNorms-Regular.eot");
