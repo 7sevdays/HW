@@ -1,5 +1,109 @@
-.publications{
+.publications-block{
   padding-top: 300px;
   border-radius: 12px 12px 0px 0px;
   background-color: $bg-grey-color;
+  &-text-butt{
+    @include font(600, 14px, 21px);
+    text-transform: uppercase;
+    color:#323264;
+    text-align: center;
+    z-index: 1000;
+    margin: 0px;
+  }
+  &-padding-bottom-but{
+    padding-bottom: 50px;
+  }
 }
+
+
+// Кнопка
+#but-pub{
+  display: none;
+}
+
+
+.but-pub{
+  position: relative;
+  display: flex;
+  width: 260px;
+  height: 50px;
+  background: #E6E6F0;
+  border-radius: 12px;
+  align-items: center;
+  padding-left: 5px;
+}
+
+.but-pub::before{
+  content: "";
+  display: flex;
+  background: #FFFFFF;
+  width: 127px;
+  height: 36px;
+  border-radius: 10px;
+  position: absolute;
+  left: 5px;
+  transition: .5s;
+
+}
+
+#but-pub:checked ~ .but-pub::before{
+  left: 127px;
+
+}
+
+
+// Публикации
+
+.container-publications {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.4fr 0.4fr 0.1fr 0.2fr 0.2fr 0.4fr 0fr 0.1fr 0.3fr 0.4fr 0.1fr;
+  gap: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 60px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "first-block second-block third-block"
+    "four-block second-block third-block"
+    "four-block five-block third-block"
+    "four-block five-block six-block"
+    "four-block five-block six-block"
+    "seven-block five-block six-block"
+    "seven-block eight-block six-block"
+    "seven-block eight-block nine-block"
+    "ten-block eight-block nine-block"
+    "ten-block . nine-block"
+    "ten-block eleven-block ."
+    "ten-block eleven-block twelve-block"
+    ". eleven-block twelve-block"
+    ". . twelve-block";
+}
+
+.first-block { grid-area: first-block; }
+
+.second-block { grid-area: second-block; }
+
+.third-block { grid-area: third-block; }
+
+.four-block { grid-area: four-block; }
+
+.five-block { grid-area: five-block; }
+
+.six-block { grid-area: six-block; }
+
+.seven-block { grid-area: seven-block; }
+
+.eight-block { grid-area: eight-block; }
+
+.nine-block { grid-area: nine-block; }
+
+.ten-block { grid-area: ten-block; }
+
+.eleven-block { grid-area: eleven-block; }
+
+.twelve-block { grid-area: twelve-block; }
+
+
+// @media screen {
+  
+// }
