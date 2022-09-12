@@ -2267,6 +2267,96 @@ span {
   grid-area: twelve-block;
 }
 
+@media screen and (max-width: 1110px) {
+  .container-publications {
+    grid-template-rows: 300px 60px 0px 180px 100px 0px 100px 150px 0.2fr 100px 80px;
+  }
+  .nine-block {
+    margin-top: -50px;
+  }
+  .seven-block {
+    margin-top: -20px;
+  }
+  .ten-block {
+    margin-top: -60px;
+  }
+  .eleven-block {
+    margin-top: -30px;
+  }
+  .twelve-block {
+    margin-top: -60px;
+  }
+  .eight-block {
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .four-block {
+    margin-top: 20px;
+  }
+  .ten-block {
+    margin-top: 1px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .four-block {
+    margin-top: 30px;
+  }
+  .eight-block {
+    padding-top: 30px;
+  }
+  .eleven-block {
+    padding-top: 20px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .container-publications {
+    grid-template-rows: 350px 60px 0px 180px 100px 0px 100px 170px 0.2fr 100px 120px;
+  }
+}
+@media screen and (max-width: 791px) {
+  .container-publications {
+    grid-template-rows: 120px 60px 60px 0px 100px 0px 80px 0px 0.2fr 100px 120px;
+  }
+  .seven-block {
+    margin-top: -80px;
+  }
+  .eight-block {
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+  .nine-block {
+    margin-top: 0px;
+  }
+  .ten-block {
+    margin-top: -90px;
+  }
+  .eleven-block {
+    padding-top: 0px;
+  }
+  .twelve-block {
+    margin-top: -30px;
+  }
+}
+@media screen and (max-width: 791px) {
+  .container-publications {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+  }
+  .seven-block {
+    margin-top: 0px;
+  }
+  .ten-block {
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 791px) {
+  .third-block, .seven-block, .eight-block, .ten-block, .eleven-block, .twelve-block {
+    display: none;
+  }
+}
 @font-face {
   font-family: "TT Norms";
   src: url("../fonts/TTNorms-Regular.eot");
