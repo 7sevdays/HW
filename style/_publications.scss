@@ -104,13 +104,43 @@
 .twelve-block { grid-area: twelve-block; }
 
 
+@media screen and (max-width: 1990px) {
+  .five-block{
+    margin-top: 80px;
+  }
+  .eight-block {
+    margin-top: 50px;
+  }
+  .ten-block{
+    margin-top: -100px;
+  }
+  .eleven-block{
+    margin-top: 50px;
+  }
+}
 
+@media screen and (max-width: 1600px) {
+  .five-block{
+    margin-top: 0px;
+  }
+  .six-block{
+    margin-top: -60px;
+  }
+  .seven-block{
+    margin-top: -30px;
+  }
+  .eight-block {
+    margin-top: 0px;
+  }
+  .ten-block{
+    margin-top: 10px;
+  }
+}
 
 
 @media screen and(max-width:1110px) {
   .container-publications {
      grid-template-rows: 300px 60px 0px 180px 100px 0px 100px 150px 0.2fr 100px 80px;
-
     }
   .nine-block{
     margin-top: -50px;
@@ -138,6 +168,9 @@
   }
   .ten-block{
     margin-top: 1px;
+  }
+  .six-block{
+    margin-top: 15px;
   }
 }
 
@@ -214,4 +247,77 @@
     display: none;
   }
 
+}
+
+
+// Publications-page
+
+.publications-page{
+  padding: 200px 265px 0px 265px;
+  &-img{
+    width: 909px;
+  }
+  &-title{
+    @include font(700, 32px, 38px);
+    color: #323264;
+    padding-top: 40px;
+  }
+  &-data{
+    @include font(700, 12px, 14px);
+    margin-bottom: 0px;
+    color: #B3B3BA;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: 4px solid #EDEDF7;
+  }
+  &-describe{
+    @include font(400, 18px, 26px);
+    color: black;
+    &padding-top{
+      padding-top: 40px;
+    }
+  }
+  &-text-result{
+    @include font(700, 24px, 28px);
+    color: #46466E;
+  }
+  &-list{
+    @include font(600, 18px, 26px);
+    color: $base-color;
+  }
+  &-text-list{
+    @include font(400, 18px, 26px);
+    color: black;
+    padding-left: 10px;
+  }
+  &-own-text{
+    @include font(400, 18px, 26px);
+    color: black;
+    padding-top: 25px;
+  }
+  &-describe-img-2{
+    @include font(400, 16px, 22px);
+    color: $grey-color;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 40px;
+  }
+  &-block-padding{
+    padding-top: 40px;
+  }
+  &-text-chil{
+    @include font(700, 24px, 28px);
+    color: #323264;
+  }
+  &-border-bottom{
+    padding-bottom: 40px;
+    border-bottom: 4px solid #E6E6F0;
+  }
+}
+
+
+.base-color{
+  color: #F0145A;
 }

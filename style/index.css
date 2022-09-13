@@ -1,7 +1,6 @@
 *, body, html {
   padding: 0;
   margin: 0;
-  list-style-type: none !important;
   text-decoration: none !important;
   box-sizing: border-box;
 }
@@ -116,7 +115,7 @@ span {
   font-size: 15px;
   line-height: 21.24px;
   font-weight: 600;
-  padding-left: 15px;
+  margin-left: 15px;
 }
 .wrap-nav-menu-link:hover {
   color: #F0145A;
@@ -1424,8 +1423,7 @@ span {
 }
 
 .under-about {
-  text-decoration: underline !important;
-  color: #F0145A;
+  border-bottom: 2px solid #F0145A;
 }
 
 .nav-about-ua {
@@ -2267,6 +2265,37 @@ span {
   grid-area: twelve-block;
 }
 
+@media screen and (max-width: 1990px) {
+  .five-block {
+    margin-top: 80px;
+  }
+  .eight-block {
+    margin-top: 50px;
+  }
+  .ten-block {
+    margin-top: -100px;
+  }
+  .eleven-block {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .five-block {
+    margin-top: 0px;
+  }
+  .six-block {
+    margin-top: -60px;
+  }
+  .seven-block {
+    margin-top: -30px;
+  }
+  .eight-block {
+    margin-top: 0px;
+  }
+  .ten-block {
+    margin-top: 10px;
+  }
+}
 @media screen and (max-width: 1110px) {
   .container-publications {
     grid-template-rows: 300px 60px 0px 180px 100px 0px 100px 150px 0.2fr 100px 80px;
@@ -2296,6 +2325,9 @@ span {
   }
   .ten-block {
     margin-top: 1px;
+  }
+  .six-block {
+    margin-top: 15px;
   }
 }
 @media screen and (max-width: 900px) {
@@ -2357,6 +2389,102 @@ span {
     display: none;
   }
 }
+.publications-page {
+  padding: 200px 265px 0px 265px;
+}
+.publications-page-img {
+  width: 909px;
+}
+.publications-page-title {
+  font-family: "TT Norms";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #323264;
+  padding-top: 40px;
+}
+.publications-page-data {
+  font-family: "TT Norms";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  margin-bottom: 0px;
+  color: #B3B3BA;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-bottom: 4px solid #EDEDF7;
+}
+.publications-page-describe {
+  font-family: "TT Norms";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: black;
+}
+.publications-page-describepadding-top {
+  padding-top: 40px;
+}
+.publications-page-text-result {
+  font-family: "TT Norms";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #46466E;
+}
+.publications-page-list {
+  font-family: "TT Norms";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  color: #F0145A;
+}
+.publications-page-text-list {
+  font-family: "TT Norms";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: black;
+  padding-left: 10px;
+}
+.publications-page-own-text {
+  font-family: "TT Norms";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: black;
+  padding-top: 25px;
+}
+.publications-page-describe-img-2 {
+  font-family: "TT Norms";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #B3B3BA;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 40px;
+}
+.publications-page-block-padding {
+  padding-top: 40px;
+}
+.publications-page-text-chil {
+  font-family: "TT Norms";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #323264;
+}
+.publications-page-border-bottom {
+  padding-bottom: 40px;
+  border-bottom: 4px solid #E6E6F0;
+}
+
+.base-color {
+  color: #F0145A;
+}
+
 @font-face {
   font-family: "TT Norms";
   src: url("../fonts/TTNorms-Regular.eot");

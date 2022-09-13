@@ -1,7 +1,7 @@
 *, body, html{
   padding: 0;
   margin: 0;
-  list-style-type: none!important;
+  // list-style-type: none!important;
   text-decoration: none!important;
   box-sizing: border-box;
 }
@@ -91,7 +91,7 @@ span{
       &-link{
         @include font(400, 15px, 21.24px);
         font-weight: 600;
-        padding-left: 15px;
+        margin-left: 15px;
         &:hover{
           color: $base-color;
         }
