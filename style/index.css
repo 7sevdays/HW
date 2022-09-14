@@ -2439,6 +2439,7 @@ span {
   font-size: 18px;
   line-height: 26px;
   color: #F0145A;
+  margin-top: 20px;
 }
 .publications-page-text-list {
   font-family: "TT Norms";
@@ -2479,6 +2480,19 @@ span {
 .publications-page-border-bottom {
   padding-bottom: 40px;
   border-bottom: 4px solid #E6E6F0;
+}
+.publications-page-icons-block {
+  margin-bottom: 60px;
+  margin-top: 20px;
+}
+.publications-page-icons-block-icon {
+  border-radius: 12px;
+  background-color: #F5F5FA;
+  padding: 9px;
+  margin-right: 10px;
+}
+.publications-page-icons-block-icon :hover {
+  cursor: pointer;
 }
 
 .base-color {
