@@ -256,6 +256,15 @@
   padding: 200px 265px 0px 265px;
   &-img{
     width: 909px;
+    @media screen and (max-width:1220px) {
+      width: 700px;
+    }
+    @media screen and (max-width:950px) {
+      width: 550px;
+    }
+    @media screen and (max-width:650px) {
+      width: 450px;
+    }
   }
   &-title{
     @include font(700, 32px, 38px);
@@ -329,10 +338,38 @@
       }
     }
   }
-  
+  @media screen and (max-width: 1350px) {
+    padding: 200px 165px 0px 165px;
+  }
+  @media screen and (max-width:950px) {
+    padding: 200px 50px 0px 50px;
+  }
+  @media screen and (max-width:950px) {
+    padding: 200px 20px 0px 20px;
+  }
+  @media screen and (max-width:550px) {
+    padding: 200px 0px 0px 0px;
+  }
 }
+
+@media screen and (max-width:810px) {
+  .width-100{
+    width: 100%;
+  }
+
+@media screen and (max-width:550px) {
+  .adapt-text-publick{
+    padding: 20px;
+  }
+  .adapt-sice-publick{
+    font-size: 36px;
+  }
+}
+}
+
 
 
 .base-color{
   color: #F0145A;
 }
+
